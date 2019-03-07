@@ -1,1 +1,1 @@
-# Smefs Indigo Remastered
+# Ignitor (Smefs Indigo Remastered)
