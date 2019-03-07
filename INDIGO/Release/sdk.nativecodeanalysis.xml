@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(4) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(5) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(6) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(7) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned short' passed as _Param_(8) when some signed type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+      <FILENAME>sdk.cpp</FILENAME>
+      <LINE>294</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'Temp_value_#2624' could be '0':  this does not adhere to the specification for the function 'GetProcAddress'. </DESCRIPTION>
+    <FUNCTION>SDK::Interfaces::SteamGameCoordinator</FUNCTION>
+    <DECORATED>?SteamGameCoordinator@Interfaces@SDK@@SAPAVISteamGameCoordinator@@XZ</DECORATED>
+    <FUNCLINE>289</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleA' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\libloaderapi.h:302)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!g_pSteamGameCoordinator')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleA' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\libloaderapi.h:302)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'Temp_value_#2624' should not be NULL, because this is not consistent with the SAL annotation on 'GetProcAddress'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+      <FILENAME>sdk.cpp</FILENAME>
+      <LINE>295</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'Temp_value_#2628' could be '0':  this does not adhere to the specification for the function 'GetProcAddress'. </DESCRIPTION>
+    <FUNCTION>SDK::Interfaces::SteamGameCoordinator</FUNCTION>
+    <DECORATED>?SteamGameCoordinator@Interfaces@SDK@@SAPAVISteamGameCoordinator@@XZ</DECORATED>
+    <FUNCLINE>289</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleA' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\libloaderapi.h:302)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!g_pSteamGameCoordinator')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleA' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\libloaderapi.h:302)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'Temp_value_#2628' should not be NULL, because this is not consistent with the SAL annotation on 'GetProcAddress'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+      <FILENAME>sdk.cpp</FILENAME>
+      <LINE>296</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'Temp_value_#2632' could be '0':  this does not adhere to the specification for the function 'GetProcAddress'. </DESCRIPTION>
+    <FUNCTION>SDK::Interfaces::SteamGameCoordinator</FUNCTION>
+    <DECORATED>?SteamGameCoordinator@Interfaces@SDK@@SAPAVISteamGameCoordinator@@XZ</DECORATED>
+    <FUNCLINE>289</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleA' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\libloaderapi.h:302)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!g_pSteamGameCoordinator')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleA' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\libloaderapi.h:302)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'Temp_value_#2632' should not be NULL, because this is not consistent with the SAL annotation on 'GetProcAddress'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

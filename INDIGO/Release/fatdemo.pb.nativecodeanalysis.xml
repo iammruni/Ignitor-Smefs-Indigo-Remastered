@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+      <FILENAME>fatdemo.pb.cc</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'file'. </DESCRIPTION>
+    <FUNCTION>protobuf_AssignDesc_fatdemo_2eproto</FUNCTION>
+    <DECORATED>?protobuf_AssignDesc_fatdemo_2eproto@@YAXXZ</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>fatdemo.pb.cc</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>fatdemo.pb.cc</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>fatdemo.pb.cc</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>fatdemo.pb.cc</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'file' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>fatdemo.pb.cc</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'file' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

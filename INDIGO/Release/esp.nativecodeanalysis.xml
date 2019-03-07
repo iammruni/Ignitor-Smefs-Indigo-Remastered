@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(4) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(5) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(6) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(7) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned short' passed as _Param_(8) when some signed type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\</FILEPATH>
+      <FILENAME>esp.cpp</FILENAME>
+      <LINE>393</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6281</DEFECTCODE>
+    <DESCRIPTION>Incorrect order of operations:  relational operators have higher precedence than bitwise operators.</DESCRIPTION>
+    <FUNCTION>CEsp::GrenadePrediction</FUNCTION>
+    <DECORATED>?GrenadePrediction@CEsp@@QAEXXZ</DECORATED>
+    <FUNCLINE>347</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\</FILEPATH>
+      <FILENAME>esp.cpp</FILENAME>
+      <LINE>393</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6281</DEFECTCODE>
+    <DESCRIPTION>Incorrect order of operations:  relational operators have higher precedence than bitwise operators.</DESCRIPTION>
+    <FUNCTION>CEsp::GrenadePrediction</FUNCTION>
+    <DECORATED>?GrenadePrediction@CEsp@@QAEXXZ</DECORATED>
+    <FUNCLINE>347</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\</FILEPATH>
+      <FILENAME>esp.cpp</FILENAME>
+      <LINE>393</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6281</DEFECTCODE>
+    <DESCRIPTION>Incorrect order of operations:  relational operators have higher precedence than bitwise operators.</DESCRIPTION>
+    <FUNCTION>CEsp::GrenadePrediction</FUNCTION>
+    <DECORATED>?GrenadePrediction@CEsp@@QAEXXZ</DECORATED>
+    <FUNCLINE>347</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\</FILEPATH>
+      <FILENAME>esp.cpp</FILENAME>
+      <LINE>393</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6281</DEFECTCODE>
+    <DESCRIPTION>Incorrect order of operations:  relational operators have higher precedence than bitwise operators.</DESCRIPTION>
+    <FUNCTION>CEsp::GrenadePrediction</FUNCTION>
+    <DECORATED>?GrenadePrediction@CEsp@@QAEXXZ</DECORATED>
+    <FUNCLINE>347</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\</FILEPATH>
+      <FILENAME>esp.cpp</FILENAME>
+      <LINE>393</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6281</DEFECTCODE>
+    <DESCRIPTION>Incorrect order of operations:  relational operators have higher precedence than bitwise operators.</DESCRIPTION>
+    <FUNCTION>CEsp::GrenadePrediction</FUNCTION>
+    <DECORATED>?GrenadePrediction@CEsp@@QAEXXZ</DECORATED>
+    <FUNCLINE>347</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\</FILEPATH>
+      <FILENAME>esp.cpp</FILENAME>
+      <LINE>393</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6281</DEFECTCODE>
+    <DESCRIPTION>Incorrect order of operations:  relational operators have higher precedence than bitwise operators.</DESCRIPTION>
+    <FUNCTION>CEsp::GrenadePrediction</FUNCTION>
+    <DECORATED>?GrenadePrediction@CEsp@@QAEXXZ</DECORATED>
+    <FUNCLINE>347</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\</FILEPATH>
+      <FILENAME>esp.cpp</FILENAME>
+      <LINE>416</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'color' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '406' of 'c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\esp.cpp'.</DESCRIPTION>
+    <FUNCTION>CEsp::GrenadePrediction</FUNCTION>
+    <DECORATED>?GrenadePrediction@CEsp@@QAEXXZ</DECORATED>
+    <FUNCLINE>347</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\</FILEPATH>
+        <FILENAME>esp.cpp</FILENAME>
+        <LINE>406</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\</FILEPATH>
+      <FILENAME>esp.cpp</FILENAME>
+      <LINE>525</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '18920' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>CEsp::OnRender</FUNCTION>
+    <DECORATED>?OnRender@CEsp@@QAEXXZ</DECORATED>
+    <FUNCLINE>525</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,3307 @@
+﻿  Misc.cpp
+  
+  Starting pass 1
+  Processed /DEFAULTLIB:uuid.lib
+  Processed /DEFAULTLIB:msvcprt
+  Processed /DEFAULTLIB:d3d9.lib
+  Processed /DEFAULTLIB:d3dx9.lib
+  Processed /DEFAULTLIB:wininet.lib
+  Processed /DEFAULTLIB:Winmm.lib
+  Processed /DEFAULTLIB:libprotobuf.lib
+  Processed /DEFAULTLIB:libprotoc.lib
+  Processed /DEFAULTLIB:MSVCRT
+  Processed /DEFAULTLIB:OLDNAMES
+  Processed /DEFAULTLIB:psapi
+  Processed /DEFAULTLIB:user32
+  Processed /DEFAULTLIB:imm32
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\kernel32.lib:
+        Found __imp__GetTickCount64@0
+          Referenced in Esp.obj
+          Referenced in Engine.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetFileAttributesA@4
+          Referenced in DynSkin.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__VirtualQuery@12
+          Referenced in Skin.obj
+          Referenced in CSX_Utils.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetPrivateProfileStringA@24
+          Referenced in CSX_Cvar.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__WritePrivateProfileStringA@16
+          Referenced in CSX_Cvar.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__HeapAlloc@12
+          Referenced in CSX_Hook.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetProcessHeap@0
+          Referenced in CSX_Hook.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__VirtualProtect@16
+          Referenced in CSX_Hook.obj
+          Referenced in Spoofed.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__IsBadReadPtr@8
+          Referenced in CSX_Hook.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcess@0
+          Referenced in CSX_Memory.obj
+          Referenced in Render.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleHandleA@4
+          Referenced in CSX_Memory.obj
+          Referenced in CSX_Utils.obj
+          Referenced in SDK.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__lstrlenA@4
+          Referenced in CSX_Memory.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _K32GetModuleInformation@16
+          Referenced in CSX_Memory.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__CloseHandle@4
+          Referenced in CSX_Utils.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetLastError@0
+          Referenced in CSX_Utils.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__WaitForSingleObject@8
+          Referenced in CSX_Utils.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__CreateEventA@16
+          Referenced in CSX_Utils.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetTickCount@0
+          Referenced in CSX_Utils.obj
+          Referenced in Engine.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleFileNameA@12
+          Referenced in CSX_Utils.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__MultiByteToWideChar@24
+          Referenced in CSX_Utils.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FindClose@4
+          Referenced in Engine.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FindFirstFileA@8
+          Referenced in Engine.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FindNextFileA@8
+          Referenced in Engine.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetFullPathNameA@16
+          Referenced in Engine.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__lstrcmpiA@8
+          Referenced in NetVar.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__TerminateProcess@8
+          Referenced in Render.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GlobalAlloc@8
+          Referenced in imgui.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GlobalUnlock@4
+          Referenced in imgui.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GlobalLock@4
+          Referenced in imgui.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__QueryPerformanceCounter@4
+          Referenced in imgui_impl_dx9.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__QueryPerformanceFrequency@4
+          Referenced in imgui_impl_dx9.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetVolumeInformationA@32
+          Referenced in License.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetComputerNameA@8
+          Referenced in License.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__CreateThread@24
+          Referenced in Main.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__DisableThreadLibraryCalls@4
+          Referenced in Main.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__Sleep@4
+          Referenced in SDK.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetProcAddress@8
+          Referenced in SDK.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __IMPORT_DESCRIPTOR_KERNEL32
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __NULL_IMPORT_DESCRIPTOR
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found KERNEL32_NULL_THUNK_DATA
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\user32.lib:
+        Found __imp__CallWindowProcA@20
+          Referenced in Client.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__GetAsyncKeyState@4
+          Referenced in Client.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__SetWindowLongA@12
+          Referenced in Client.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__FindWindowA@8
+          Referenced in Client.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__MessageBoxA@16
+          Referenced in Render.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__OpenClipboard@4
+          Referenced in imgui.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__CloseClipboard@0
+          Referenced in imgui.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__SetClipboardData@8
+          Referenced in imgui.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__GetClipboardData@4
+          Referenced in imgui.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__EmptyClipboard@0
+          Referenced in imgui.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__GetKeyState@4
+          Referenced in imgui_impl_dx9.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__GetClientRect@8
+          Referenced in imgui_impl_dx9.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__SetCursor@4
+          Referenced in imgui_impl_dx9.obj
+          Loaded user32.lib(USER32.dll)
+        Found __IMPORT_DESCRIPTOR_USER32
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Loaded user32.lib(USER32.dll)
+        Found USER32_NULL_THUNK_DATA
+          Referenced in user32.lib(USER32.dll)
+          Loaded user32.lib(USER32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\advapi32.lib:
+        Found __imp__GetCurrentHwProfileA@4
+          Referenced in CSX_Utils.obj
+          Referenced in License.obj
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found __imp__RegOpenKeyExA@20
+          Referenced in CSX_Utils.obj
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found __imp__RegQueryValueExA@24
+          Referenced in CSX_Utils.obj
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found __imp__GetUserNameA@8
+          Referenced in License.obj
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found __imp__CryptAcquireContextA@20
+          Referenced in License.obj
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found __imp__CryptReleaseContext@8
+          Referenced in License.obj
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found __imp__CryptGetHashParam@20
+          Referenced in License.obj
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found __imp__CryptCreateHash@20
+          Referenced in License.obj
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found __imp__CryptHashData@16
+          Referenced in License.obj
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found __imp__CryptDestroyHash@4
+          Referenced in License.obj
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found __IMPORT_DESCRIPTOR_ADVAPI32
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Loaded advapi32.lib(ADVAPI32.dll)
+        Found ADVAPI32_NULL_THUNK_DATA
+          Referenced in advapi32.lib(ADVAPI32.dll)
+          Loaded advapi32.lib(ADVAPI32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\oleaut32.lib:
+        Found __imp__SysAllocStringLen@8
+          Referenced in CSX_Utils.obj
+          Loaded oleaut32.lib(OLEAUT32.dll)
+        Found __imp__SysFreeString@4
+          Referenced in CSX_Utils.obj
+          Referenced in Render.obj
+          Loaded oleaut32.lib(OLEAUT32.dll)
+        Found __IMPORT_DESCRIPTOR_OLEAUT32
+          Referenced in oleaut32.lib(OLEAUT32.dll)
+          Referenced in oleaut32.lib(OLEAUT32.dll)
+          Loaded oleaut32.lib(OLEAUT32.dll)
+        Found OLEAUT32_NULL_THUNK_DATA
+          Referenced in oleaut32.lib(OLEAUT32.dll)
+          Loaded oleaut32.lib(OLEAUT32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbccp32.lib:
+      Searching protobuf\libprotobuf.lib:
+        Found "public: bool __thiscall google::protobuf::MessageLite::SerializeToArray(void *,int)const " (?SerializeToArray@MessageLite@protobuf@google@@QBE_NPAXH@Z)
+          Referenced in Client.obj
+          Referenced in InventoryChanger.obj
+          Loaded libprotobuf.lib(message_lite.obj)
+        Found "public: __thiscall google::protobuf::internal::LogMessage::LogMessage(enum google::protobuf::LogLevel,char const *,int)" (??0LogMessage@internal@protobuf@google@@QAE@W4LogLevel@23@PBDH@Z)
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in netmessages.pb.obj
+          Referenced in network_connection.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in InventoryChanger.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Loaded libprotobuf.lib(common.obj)
+        Found "protected: void __thiscall google::protobuf::internal::RepeatedPtrFieldBase::Reserve(int)" (?Reserve@RepeatedPtrFieldBase@internal@protobuf@google@@IAEXH@Z)
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in InventoryChanger.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Loaded libprotobuf.lib(repeated_field.obj)
+        Found "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const google::protobuf::internal::kEmptyString" (?kEmptyString@internal@protobuf@google@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@B)
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in InventoryChanger.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Loaded libprotobuf.lib(generated_message_util.obj)
+        Found "public: static class google::protobuf::DescriptorPool const * __cdecl google::protobuf::DescriptorPool::generated_pool(void)" (?generated_pool@DescriptorPool@protobuf@google@@SAPBV123@XZ)
+          Referenced in network_connection.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Loaded libprotobuf.lib(descriptor.obj)
+        Found "public: virtual __thiscall google::protobuf::Message::~Message(void)" (??1Message@protobuf@google@@UAE@XZ)
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Loaded libprotobuf.lib(message.obj)
+        Found "public: __thiscall google::protobuf::UnknownFieldSet::UnknownFieldSet(void)" (??0UnknownFieldSet@protobuf@google@@QAE@XZ)
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Loaded libprotobuf.lib(unknown_field_set.obj)
+        Found "void __cdecl google::protobuf::GoogleOnceInitImpl(int *,class google::protobuf::Closure *)" (?GoogleOnceInitImpl@protobuf@google@@YAXPAHPAVClosure@12@@Z)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in network_connection.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Loaded libprotobuf.lib(once.obj)
+        Found "public: int __thiscall google::protobuf::io::CodedInputStream::PushLimit(int)" (?PushLimit@CodedInputStream@io@protobuf@google@@QAEHH@Z)
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Loaded libprotobuf.lib(coded_stream.obj)
+        Found "public: static bool __cdecl google::protobuf::internal::WireFormatLite::ReadString(class google::protobuf::io::CodedInputStream *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)" (?ReadString@WireFormatLite@internal@protobuf@google@@SA_NPAVCodedInputStream@io@34@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+          Referenced in netmessages.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Loaded libprotobuf.lib(wire_format_lite.obj)
+        Found "public: __thiscall google::protobuf::internal::GeneratedMessageReflection::GeneratedMessageReflection(class google::protobuf::Descriptor const *,class google::protobuf::Message const *,int const * const,int,int,int,class google::protobuf::DescriptorPool const *,class google::protobuf::MessageFactory *,int)" (??0GeneratedMessageReflection@internal@protobuf@google@@QAE@PBVDescriptor@23@PBVMessage@23@QBHHHHPBVDescriptorPool@23@PAVMessageFactory@23@H@Z)
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Loaded libprotobuf.lib(generated_message_reflection.obj)
+        Found "public: static void __cdecl google::protobuf::internal::ReflectionOps::Merge(class google::protobuf::Message const &,class google::protobuf::Message *)" (?Merge@ReflectionOps@internal@protobuf@google@@SAXABVMessage@34@PAV534@@Z)
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Loaded libprotobuf.lib(reflection_ops.obj)
+        Found "public: static bool __cdecl google::protobuf::internal::WireFormat::SkipField(class google::protobuf::io::CodedInputStream *,unsigned int,class google::protobuf::UnknownFieldSet *)" (?SkipField@WireFormat@internal@protobuf@google@@SA_NPAVCodedInputStream@io@34@IPAVUnknownFieldSet@34@@Z)
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Loaded libprotobuf.lib(wire_format.obj)
+        Found "void __cdecl google::protobuf::protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto(void)" (?protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto@protobuf@google@@YAXXZ)
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in network_connection.pb.obj
+          Referenced in steammessages.pb.obj
+          Loaded libprotobuf.lib(descriptor.pb.obj)
+        Found "public: static void __cdecl google::protobuf::internal::ExtensionSet::RegisterExtension(class google::protobuf::MessageLite const *,int,unsigned char,bool,bool)" (?RegisterExtension@ExtensionSet@internal@protobuf@google@@SAXPBVMessageLite@34@HE_N1@Z)
+          Referenced in network_connection.pb.obj
+          Referenced in steammessages.pb.obj
+          Loaded libprotobuf.lib(extension_set.obj)
+        Found "public: __thiscall google::protobuf::io::ArrayOutputStream::ArrayOutputStream(void *,int,int)" (??0ArrayOutputStream@io@protobuf@google@@QAE@PAXHH@Z)
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Loaded libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+        Found "public: __thiscall google::protobuf::EncodedDescriptorDatabase::EncodedDescriptorDatabase(void)" (??0EncodedDescriptorDatabase@protobuf@google@@QAE@XZ)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Loaded libprotobuf.lib(descriptor_database.obj)
+        Found "public: __thiscall google::protobuf::DynamicMessageFactory::DynamicMessageFactory(void)" (??0DynamicMessageFactory@protobuf@google@@QAE@XZ)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Loaded libprotobuf.lib(dynamic_message.obj)
+        Found "public: static void __cdecl google::protobuf::TextFormat::PrintFieldValueToString(class google::protobuf::Message const &,class google::protobuf::FieldDescriptor const *,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)" (?PrintFieldValueToString@TextFormat@protobuf@google@@SAXABVMessage@23@PBVFieldDescriptor@23@HPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Loaded libprotobuf.lib(text_format.obj)
+        Found "public: virtual __thiscall google::protobuf::io::ErrorCollector::~ErrorCollector(void)" (??1ErrorCollector@io@protobuf@google@@UAE@XZ)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Loaded libprotobuf.lib(tokenizer.obj)
+        Found "void __cdecl google::protobuf::JoinStrings(class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const &,char const *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)" (?JoinStrings@protobuf@google@@YAXABV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PBDPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Loaded libprotobuf.lib(strutil.obj)
+        Found "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl google::protobuf::strings::Substitute(char const *,class google::protobuf::strings::internal::SubstituteArg const &,class google::protobuf::strings::internal::SubstituteArg const &,class google::protobuf::strings::internal::SubstituteArg const &,class google::protobuf::strings::internal::SubstituteArg const &,class google::protobuf::strings::internal::SubstituteArg const &,class google::protobuf::strings::internal::SubstituteArg const &,class google::protobuf::strings::internal::SubstituteArg const &,class google::protobuf::strings::internal::SubstituteArg const &,class google::protobuf::strings::internal::SubstituteArg const &,class google::protobuf::strings::internal::SubstituteArg const &)" (?Substitute@strings@protobuf@google@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBDABVSubstituteArg@internal@123@111111111@Z)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Loaded libprotobuf.lib(substitute.obj)
+        Found "public: __thiscall google::protobuf::io::FileInputStream::FileInputStream(int,int)" (??0FileInputStream@io@protobuf@google@@QAE@HH@Z)
+          Referenced in libprotobuf.lib(message.obj)
+          Loaded libprotobuf.lib(zero_copy_stream_impl.obj)
+        Found "int __cdecl google::protobuf::internal::NoBarrier_CompareAndSwap(int volatile *,int,int)" (?NoBarrier_CompareAndSwap@internal@protobuf@google@@YAHPCHHH@Z)
+          Referenced in libprotobuf.lib(once.obj)
+          Loaded libprotobuf.lib(atomicops_internals_x86_msvc.obj)
+        Found "public: void __thiscall google::protobuf::internal::ExtensionSet::AppendToList(class google::protobuf::Descriptor const *,class google::protobuf::DescriptorPool const *,class std::vector<class google::protobuf::FieldDescriptor const *,class std::allocator<class google::protobuf::FieldDescriptor const *> > *)const " (?AppendToList@ExtensionSet@internal@protobuf@google@@QBEXPBVDescriptor@34@PBVDescriptorPool@34@PAV?$vector@PBVFieldDescriptor@protobuf@google@@V?$allocator@PBVFieldDescriptor@protobuf@google@@@std@@@std@@@Z)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Loaded libprotobuf.lib(extension_set_heavy.obj)
+        Found "bool __cdecl google::protobuf::internal::IsStructurallyValidUTF8(char const *,int)" (?IsStructurallyValidUTF8@internal@protobuf@google@@YA_NPBDH@Z)
+          Referenced in libprotobuf.lib(wire_format.obj)
+          Loaded libprotobuf.lib(structurally_valid.obj)
+        Found "public: virtual __thiscall google::protobuf::io::ZeroCopyInputStream::~ZeroCopyInputStream(void)" (??1ZeroCopyInputStream@io@protobuf@google@@UAE@XZ)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Loaded libprotobuf.lib(zero_copy_stream.obj)
+        Found "void __cdecl google::protobuf::StringAppendF(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *,char const *,...)" (?StringAppendF@protobuf@google@@YAXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBDZZ)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Loaded libprotobuf.lib(stringprintf.obj)
+      Searching protobuf\libprotoc.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\msvcprt.lib:
+        Found "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(substitute.obj)
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(stringprintf.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(reflection_ops.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(unknown_field_set.obj)
+          Referenced in libprotobuf.lib(coded_stream.obj)
+          Referenced in libprotobuf.lib(wire_format_lite.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in Weapon.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in Settings.obj
+          Referenced in NetVar.obj
+          Referenced in Offset.obj
+          Referenced in Players.obj
+          Referenced in Render.obj
+          Referenced in Skin.obj
+          Referenced in Engine.obj
+          Referenced in Entity.obj
+          Referenced in Hook.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in Radar.obj
+          Referenced in DynSkin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found __Mbrtowc
+          Referenced in Weapon.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in Settings.obj
+          Referenced in NetVar.obj
+          Referenced in Offset.obj
+          Referenced in Players.obj
+          Referenced in Render.obj
+          Referenced in Skin.obj
+          Referenced in Engine.obj
+          Referenced in Entity.obj
+          Referenced in Hook.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in Radar.obj
+          Referenced in DynSkin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: struct _Cvtvec __thiscall std::_Locinfo::_Getcvt(void)const " (__imp_?_Getcvt@_Locinfo@std@@QBE?AU_Cvtvec@@XZ)
+          Referenced in Weapon.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in Settings.obj
+          Referenced in NetVar.obj
+          Referenced in Offset.obj
+          Referenced in Players.obj
+          Referenced in Render.obj
+          Referenced in Skin.obj
+          Referenced in Engine.obj
+          Referenced in Entity.obj
+          Referenced in Hook.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in Radar.obj
+          Referenced in DynSkin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: char const * __thiscall std::_Locinfo::_Getdays(void)const " (__imp_?_Getdays@_Locinfo@std@@QBEPBDXZ)
+          Referenced in Weapon.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in Settings.obj
+          Referenced in NetVar.obj
+          Referenced in Offset.obj
+          Referenced in Players.obj
+          Referenced in Render.obj
+          Referenced in Skin.obj
+          Referenced in Engine.obj
+          Referenced in Entity.obj
+          Referenced in Hook.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in Radar.obj
+          Referenced in DynSkin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: char const * __thiscall std::_Locinfo::_Getmonths(void)const " (__imp_?_Getmonths@_Locinfo@std@@QBEPBDXZ)
+          Referenced in Weapon.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in Settings.obj
+          Referenced in NetVar.obj
+          Referenced in Offset.obj
+          Referenced in Players.obj
+          Referenced in Render.obj
+          Referenced in Skin.obj
+          Referenced in Engine.obj
+          Referenced in Entity.obj
+          Referenced in Hook.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in Radar.obj
+          Referenced in DynSkin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: unsigned short const * __thiscall std::_Locinfo::_W_Getdays(void)const " (__imp_?_W_Getdays@_Locinfo@std@@QBEPBGXZ)
+          Referenced in Weapon.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in Settings.obj
+          Referenced in NetVar.obj
+          Referenced in Offset.obj
+          Referenced in Players.obj
+          Referenced in Render.obj
+          Referenced in Skin.obj
+          Referenced in Engine.obj
+          Referenced in Entity.obj
+          Referenced in Hook.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in Radar.obj
+          Referenced in DynSkin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: unsigned short const * __thiscall std::_Locinfo::_W_Getmonths(void)const " (__imp_?_W_Getmonths@_Locinfo@std@@QBEPBGXZ)
+          Referenced in Weapon.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in Settings.obj
+          Referenced in NetVar.obj
+          Referenced in Offset.obj
+          Referenced in Players.obj
+          Referenced in Render.obj
+          Referenced in Skin.obj
+          Referenced in Engine.obj
+          Referenced in Entity.obj
+          Referenced in Hook.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in Radar.obj
+          Referenced in DynSkin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z)
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(stringprintf.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(substitute.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(wire_format_lite.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(reflection_ops.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in libprotobuf.lib(unknown_field_set.obj)
+          Referenced in libprotobuf.lib(coded_stream.obj)
+          Referenced in steammessages.pb.obj
+          Referenced in Settings.obj
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in network_connection.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in CSX_Utils.obj
+          Referenced in Engine.obj
+          Referenced in NetVar.obj
+          Referenced in Players.obj
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Cvar.obj
+          Referenced in CSX_Log.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPBD@Z)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in Settings.obj
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in CSX_Log.obj
+          Referenced in CSX_Utils.obj
+          Referenced in Players.obj
+          Referenced in License.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: __thiscall std::_Lockit::_Lockit(int)" (__imp_??0_Lockit@std@@QAE@H@Z)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: __thiscall std::_Lockit::~_Lockit(void)" (__imp_??1_Lockit@std@@QAE@XZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(locale0_implib.obj)
+        Found "__declspec(dllimport) public: __thiscall std::locale::id::operator unsigned int(void)" (__imp_??Bid@locale@std@@QAEIXZ)
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: bool __thiscall std::codecvt_base::always_noconv(void)const " (__imp_?always_noconv@codecvt_base@std@@QBE_NXZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: int __thiscall std::codecvt<char,char,struct _Mbstatet>::in(struct _Mbstatet &,char const *,char const *,char const * &,char *,char *,char * &)const " (__imp_?in@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: int __thiscall std::codecvt<char,char,struct _Mbstatet>::out(struct _Mbstatet &,char const *,char const *,char const * &,char *,char *,char * &)const " (__imp_?out@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: int __thiscall std::codecvt<char,char,struct _Mbstatet>::unshift(struct _Mbstatet &,char *,char *,char * &)const " (__imp_?unshift@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PAD1AAPAD@Z)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: static unsigned int __cdecl std::codecvt<char,char,struct _Mbstatet>::_Getcat(class std::locale::facet const * *,class std::locale const *)" (__imp_?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SAIPAPBVfacet@locale@2@PBV42@@Z)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void)" (__imp_??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: virtual __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: class std::locale __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::getloc(void)const " (__imp_?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::eback(void)const " (__imp_?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::gptr(void)const " (__imp_?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::pptr(void)const " (__imp_?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::egptr(void)const " (__imp_?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::setg(char *,char *,char *)" (__imp_?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::epptr(void)const " (__imp_?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Gndec(void)" (__imp_?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Gninc(void)" (__imp_?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Pninc(void)" (__imp_?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)" (__imp_?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(char * *,char * *,int *,char * *,char * *,int *)" (__imp_?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAPAD0PAH001@Z)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: virtual __thiscall std::basic_ios<char,struct std::char_traits<char> >::~basic_ios<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (__imp_?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: __thiscall std::basic_ios<char,struct std::char_traits<char> >::basic_ios<char,struct std::char_traits<char> >(void)" (__imp_??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: __thiscall std::basic_istream<char,struct std::char_traits<char> >::basic_istream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)" (__imp_??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z)
+          Referenced in DynSkin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: virtual __thiscall std::basic_istream<char,struct std::char_traits<char> >::~basic_istream<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ)
+          Referenced in DynSkin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: class std::basic_istream<char,struct std::char_traits<char> > & __thiscall std::basic_istream<char,struct std::char_traits<char> >::read(char *,__int64)" (__imp_?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_J@Z)
+          Referenced in DynSkin.obj
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: class std::basic_istream<char,struct std::char_traits<char> > & __thiscall std::basic_istream<char,struct std::char_traits<char> >::seekg(__int64,int)" (__imp_?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@_JH@Z)
+          Referenced in DynSkin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: class std::fpos<struct _Mbstatet> __thiscall std::basic_istream<char,struct std::char_traits<char> >::tellg(void)" (__imp_?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE?AV?$fpos@U_Mbstatet@@@2@XZ)
+          Referenced in DynSkin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "struct _iobuf * __cdecl std::_Fiopen(char const *,int,int)" (?_Fiopen@std@@YAPAU_iobuf@@PBDHH@Z)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "protected: virtual __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::showmanyc(void)" (?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "protected: virtual __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::xsgetn(char *,__int64)" (?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "protected: virtual __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::xsputn(char const *,__int64)" (?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) __int64 const std::_BADOFF" (__imp_?_BADOFF@std@@3_JB)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: static class std::locale::id std::codecvt<char,char,struct _Mbstatet>::id" (__imp_?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A)
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: class std::_Yarn<char> & __thiscall std::_Yarn<char>::operator=(char const *)" (__imp_??4?$_Yarn@D@std@@QAEAAV01@PBD@Z)
+          Referenced in Skin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) private: static class std::locale::_Locimp * __cdecl std::locale::_Locimp::_New_Locimp(class std::locale::_Locimp const &)" (__imp_?_New_Locimp@_Locimp@locale@std@@CAPAV123@ABV123@@Z)
+          Referenced in Skin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) private: void __thiscall std::locale::_Locimp::_Addfac(class std::locale::facet *,unsigned int)" (__imp_?_Addfac@_Locimp@locale@std@@AAEXPAVfacet@23@I@Z)
+          Referenced in Skin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPAV_Locimp@12@_N@Z)
+          Referenced in Skin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: int __thiscall std::codecvt<wchar_t,char,struct _Mbstatet>::out(struct _Mbstatet &,wchar_t const *,wchar_t const *,wchar_t const * &,char *,char *,char * &)const " (__imp_?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z)
+          Referenced in Skin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: __thiscall std::codecvt<wchar_t,char,struct _Mbstatet>::codecvt<wchar_t,char,struct _Mbstatet>(unsigned int)" (__imp_??0?$codecvt@_WDU_Mbstatet@@@std@@QAE@I@Z)
+          Referenced in Skin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: virtual __thiscall std::codecvt<wchar_t,char,struct _Mbstatet>::~codecvt<wchar_t,char,struct _Mbstatet>(void)" (__imp_??1?$codecvt@_WDU_Mbstatet@@@std@@MAE@XZ)
+          Referenced in Skin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "public: virtual class std::_Facet_base * __thiscall std::locale::facet::_Decref(void)" (?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ)
+          Referenced in Skin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "public: virtual void __thiscall std::locale::facet::_Incref(void)" (?_Incref@facet@locale@std@@UAEXXZ)
+          Referenced in Skin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: static class std::locale::id std::codecvt<wchar_t,char,struct _Mbstatet>::id" (__imp_?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A)
+          Referenced in Skin.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "int __cdecl std::uncaught_exceptions(void)" (?uncaught_exceptions@std@@YAHXZ)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: bool __thiscall std::ios_base::good(void)const " (__imp_?good@ios_base@std@@QBE_NXZ)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: int __thiscall std::ios_base::flags(void)const " (__imp_?flags@ios_base@std@@QBEHXZ)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(void)const " (__imp_?width@ios_base@std@@QBE_JXZ)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(__int64)" (__imp_?width@ios_base@std@@QAE_J_J@Z)
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (__imp_?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (__imp_?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::clear(int,bool)" (__imp_?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::tie(void)const " (__imp_?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: class std::basic_streambuf<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::rdbuf(void)const " (__imp_?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (__imp_?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDXZ)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::widen(char)const " (__imp_?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: __thiscall std::basic_ostream<char,struct std::char_traits<char> >::basic_ostream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)" (__imp_??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z)
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: virtual __thiscall std::basic_ostream<char,struct std::char_traits<char> >::~basic_ostream<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ)
+          Referenced in CSX_Log.obj
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > & (__cdecl*)(class std::basic_ostream<char,struct std::char_traits<char> > &))" (__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::put(char)" (__imp_?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (__imp_?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ)
+          Referenced in CSX_Log.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: int __thiscall std::ios_base::setf(int,int)" (__imp_?setf@ios_base@std@@QAEHHH@Z)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::pbase(void)const " (__imp_?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::gbump(int)" (__imp_?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::pbump(int)" (__imp_?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::setp(char *,char *)" (__imp_?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD0@Z)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::setp(char *,char *,char *)" (__imp_?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::fill(char)" (__imp_?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEDD@Z)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::ios_base & (__cdecl*)(class std::ios_base &))" (__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::operator<<(int)" (__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "public: virtual void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Lock(void)" (?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "public: virtual void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Unlock(void)" (?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "protected: virtual void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::imbue(class std::locale const &)" (?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "protected: virtual class std::basic_streambuf<char,struct std::char_traits<char> > * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::setbuf(char *,__int64)" (?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "protected: virtual int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sync(void)" (?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "protected: virtual int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::uflow(void)" (?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ)
+          Referenced in License.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::write(char const *,__int64)" (__imp_?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@PBD_J@Z)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found __IMPORT_DESCRIPTOR_MSVCP140
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found MSVCP140_NULL_THUNK_DATA
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Loaded msvcprt.lib(MSVCP140.dll)
+      Searching C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib:
+      Searching C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib:
+        Found _D3DXCreateFontA@48
+          Referenced in Render.obj
+          Loaded d3dx9.lib(d3dx9_43.dll)
+        Found __IMPORT_DESCRIPTOR_d3dx9_43
+          Referenced in d3dx9.lib(d3dx9_43.dll)
+          Loaded d3dx9.lib(d3dx9_43.dll)
+        Found d3dx9_43_NULL_THUNK_DATA
+          Referenced in d3dx9.lib(d3dx9_43.dll)
+          Loaded d3dx9.lib(d3dx9_43.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\wininet.lib:
+        Found __imp__InternetOpenA@20
+          Referenced in License.obj
+          Loaded wininet.lib(WININET.dll)
+        Found __imp__InternetCloseHandle@4
+          Referenced in License.obj
+          Loaded wininet.lib(WININET.dll)
+        Found __imp__InternetConnectA@32
+          Referenced in License.obj
+          Loaded wininet.lib(WININET.dll)
+        Found __imp__InternetReadFile@16
+          Referenced in License.obj
+          Loaded wininet.lib(WININET.dll)
+        Found __imp__HttpOpenRequestA@32
+          Referenced in License.obj
+          Loaded wininet.lib(WININET.dll)
+        Found __imp__HttpSendRequestA@20
+          Referenced in License.obj
+          Loaded wininet.lib(WININET.dll)
+        Found __IMPORT_DESCRIPTOR_WININET
+          Referenced in wininet.lib(WININET.dll)
+          Referenced in wininet.lib(WININET.dll)
+          Referenced in wininet.lib(WININET.dll)
+          Referenced in wininet.lib(WININET.dll)
+          Referenced in wininet.lib(WININET.dll)
+          Referenced in wininet.lib(WININET.dll)
+          Loaded wininet.lib(WININET.dll)
+        Found WININET_NULL_THUNK_DATA
+          Referenced in wininet.lib(WININET.dll)
+          Loaded wininet.lib(WININET.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\Winmm.lib:
+        Found __imp__PlaySoundA@12
+          Referenced in Esp.obj
+          Loaded Winmm.lib(WINMM.dll)
+        Found __IMPORT_DESCRIPTOR_WINMM
+          Referenced in Winmm.lib(WINMM.dll)
+          Loaded Winmm.lib(WINMM.dll)
+        Found WINMM_NULL_THUNK_DATA
+          Referenced in Winmm.lib(WINMM.dll)
+          Loaded Winmm.lib(WINMM.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\MSVCRT.lib:
+        Found "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+          Referenced in libprotobuf.lib(stringprintf.obj)
+          Referenced in msvcprt.lib(locale0_implib.obj)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(substitute.obj)
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(reflection_ops.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in libprotobuf.lib(unknown_field_set.obj)
+          Referenced in libprotobuf.lib(coded_stream.obj)
+          Referenced in libprotobuf.lib(wire_format_lite.obj)
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(repeated_field.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in network_connection.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in Settings.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in NetVar.obj
+          Referenced in Players.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in CSX_Cvar.obj
+          Referenced in CSX_Log.obj
+          Referenced in CSX_Utils.obj
+          Referenced in Engine.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded MSVCRT.lib(new_scalar.obj)
+        Found "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+          Referenced in msvcprt.lib(locale0_implib.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream.obj)
+          Referenced in libprotobuf.lib(stringprintf.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(substitute.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(reflection_ops.obj)
+          Referenced in libprotobuf.lib(wire_format.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in libprotobuf.lib(unknown_field_set.obj)
+          Referenced in libprotobuf.lib(coded_stream.obj)
+          Referenced in libprotobuf.lib(wire_format_lite.obj)
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(repeated_field.obj)
+          Referenced in libprotobuf.lib(generated_message_util.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in Settings.obj
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in network_connection.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in imgui_draw.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in Engine.obj
+          Referenced in NetVar.obj
+          Referenced in Players.obj
+          Referenced in imgui.obj
+          Referenced in CSX_Cvar.obj
+          Referenced in CSX_Log.obj
+          Referenced in CSX_Memory.obj
+          Referenced in CSX_Utils.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded MSVCRT.lib(delete_scalar_size.obj)
+        Found @__security_check_cookie@4
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(stringprintf.obj)
+          Referenced in msvcprt.lib(locale0_implib.obj)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(substitute.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(reflection_ops.obj)
+          Referenced in libprotobuf.lib(wire_format.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(unknown_field_set.obj)
+          Referenced in libprotobuf.lib(coded_stream.obj)
+          Referenced in libprotobuf.lib(wire_format_lite.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in Spoofed.obj
+          Referenced in Settings.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in network_connection.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in imgui_impl_dx9.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in Weapon.obj
+          Referenced in imgui.obj
+          Referenced in imguicolorpicker.obj
+          Referenced in imgui_draw.obj
+          Referenced in NetVar.obj
+          Referenced in Offset.obj
+          Referenced in Players.obj
+          Referenced in Render.obj
+          Referenced in CSX_Utils.obj
+          Referenced in Engine.obj
+          Referenced in Entity.obj
+          Referenced in Hook.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Cvar.obj
+          Referenced in CSX_Log.obj
+          Referenced in CSX_Memory.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in Radar.obj
+          Referenced in DynSkin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded MSVCRT.lib(_secchk_.obj)
+        Found ___security_cookie
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(stringprintf.obj)
+          Referenced in msvcprt.lib(locale0_implib.obj)
+          Referenced in MSVCRT.lib(_secchk_.obj)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(substitute.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(reflection_ops.obj)
+          Referenced in libprotobuf.lib(wire_format.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(unknown_field_set.obj)
+          Referenced in libprotobuf.lib(coded_stream.obj)
+          Referenced in libprotobuf.lib(wire_format_lite.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in Spoofed.obj
+          Referenced in Settings.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in network_connection.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in imgui_impl_dx9.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in Weapon.obj
+          Referenced in imgui.obj
+          Referenced in imguicolorpicker.obj
+          Referenced in imgui_draw.obj
+          Referenced in NetVar.obj
+          Referenced in Offset.obj
+          Referenced in Players.obj
+          Referenced in Render.obj
+          Referenced in CSX_Utils.obj
+          Referenced in Engine.obj
+          Referenced in Entity.obj
+          Referenced in Hook.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Cvar.obj
+          Referenced in CSX_Log.obj
+          Referenced in CSX_Memory.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in Radar.obj
+          Referenced in DynSkin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded MSVCRT.lib(gs_cookie.obj)
+        Found __fltused
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(wire_format_lite.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(reflection_ops.obj)
+          Referenced in libprotobuf.lib(wire_format.obj)
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(generated_message_util.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in Vector2D.obj
+          Referenced in Vector4D.obj
+          Referenced in VMatrix.obj
+          Referenced in Settings.obj
+          Referenced in SDK.obj
+          Referenced in Sounds.obj
+          Referenced in Spoofed.obj
+          Referenced in Vector.obj
+          Referenced in steammessages.pb.obj
+          Referenced in ReflectiveLoader.obj
+          Referenced in CRC.obj
+          Referenced in KeyValues.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in Main.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in imguicolorpicker.obj
+          Referenced in imgui_draw.obj
+          Referenced in imgui_impl_dx9.obj
+          Referenced in License.obj
+          Referenced in Render.obj
+          Referenced in Weapon.obj
+          Referenced in Gui.obj
+          Referenced in imgui.obj
+          Referenced in Hook.obj
+          Referenced in NetVar.obj
+          Referenced in Offset.obj
+          Referenced in Players.obj
+          Referenced in CSX_Memory.obj
+          Referenced in CSX_Utils.obj
+          Referenced in Engine.obj
+          Referenced in Entity.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Cvar.obj
+          Referenced in CSX_Hook.obj
+          Referenced in CSX_Log.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in Radar.obj
+          Referenced in DynSkin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded MSVCRT.lib(fltused.obj)
+        Found _atexit
+          Referenced in msvcprt.lib(locale0_implib.obj)
+          Referenced in network_connection.pb.obj
+          Referenced in Settings.obj
+          Referenced in libprotobuf.lib(generated_message_util.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in CSX_Log.obj
+          Referenced in NetVar.obj
+          Referenced in imgui.obj
+          Referenced in License.obj
+          Referenced in Client.obj
+          Referenced in Misc.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Cvar.obj
+          Loaded MSVCRT.lib(utility.obj)
+        Found __Init_thread_header
+          Referenced in Engine.obj
+          Referenced in imgui.obj
+          Referenced in imgui_draw.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Referenced in Misc.obj
+          Referenced in Skin.obj
+          Loaded MSVCRT.lib(thread_safe_statics.obj)
+        Found "const type_info::`vftable'" (??_7type_info@@6B@)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in netmessages.pb.obj
+          Referenced in network_connection.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in License.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in CSX_Log.obj
+          Referenced in Engine.obj
+          Referenced in Entity.obj
+          Referenced in Players.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Loaded MSVCRT.lib(std_type_info_static.obj)
+        Found __tls_array
+          Referenced in Engine.obj
+          Referenced in imgui.obj
+          Referenced in imgui_draw.obj
+          Referenced in MSVCRT.lib(thread_safe_statics.obj)
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Referenced in Misc.obj
+          Referenced in Skin.obj
+          Loaded MSVCRT.lib(atlssup.obj)
+        Found __tls_index
+          Referenced in Engine.obj
+          Referenced in imgui.obj
+          Referenced in imgui_draw.obj
+          Referenced in MSVCRT.lib(thread_safe_statics.obj)
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Referenced in Misc.obj
+          Referenced in Skin.obj
+          Loaded MSVCRT.lib(tlssup.obj)
+        Found __chkstk
+          Referenced in Esp.obj
+          Referenced in Entity.obj
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Loaded MSVCRT.lib(chkstk.obj)
+        Found "void __stdcall `eh vector constructor iterator'(void *,unsigned int,unsigned int,void (__thiscall*)(void *),void (__thiscall*)(void *))" (??_L@YGXPAXIIP6EX0@Z1@Z)
+          Referenced in Skin.obj
+          Referenced in Players.obj
+          Referenced in imgui.obj
+          Loaded MSVCRT.lib(ehvecctr.obj)
+        Found "void __stdcall `eh vector destructor iterator'(void *,unsigned int,unsigned int,void (__thiscall*)(void *))" (??_M@YGXPAXIIP6EX0@Z@Z)
+          Referenced in Skin.obj
+          Referenced in Engine.obj
+          Referenced in Players.obj
+          Referenced in imgui.obj
+          Loaded MSVCRT.lib(ehvecdtr.obj)
+        Found "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(stringprintf.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in steammessages.pb.obj
+          Referenced in libprotobuf.lib(repeated_field.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(wire_format_lite.obj)
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in Skin.obj
+          Referenced in Players.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Loaded MSVCRT.lib(new_array.obj)
+        Found "void __cdecl operator delete[](void *,unsigned int)" (??_V@YAXPAXI@Z)
+          Referenced in Players.obj
+          Loaded MSVCRT.lib(delete_array_size.obj)
+        Found __ftol2_sse
+          Referenced in Players.obj
+          Referenced in imgui_draw.obj
+          Loaded MSVCRT.lib(_ftol2_.obj)
+        Found __alloca_probe_16
+          Referenced in imgui_draw.obj
+          Loaded MSVCRT.lib(alloca16.obj)
+        Found __ftoui3
+          Referenced in imgui_impl_dx9.obj
+          Loaded MSVCRT.lib(_ftol3_.obj)
+        Found ___report_rangecheckfailure
+          Referenced in License.obj
+          Loaded MSVCRT.lib(gs_report.obj)
+        Found "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(stringprintf.obj)
+          Referenced in MSVCRT.lib(delete_array_size.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(repeated_field.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(wire_format_lite.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Loaded MSVCRT.lib(delete_array.obj)
+        Found __DllMainCRTStartup@12
+          Loaded MSVCRT.lib(dll_dllmain.obj)
+        Found "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in MSVCRT.lib(delete_scalar_size.obj)
+          Referenced in MSVCRT.lib(delete_array.obj)
+          Loaded MSVCRT.lib(delete_scalar.obj)
+        Found __allshl
+          Referenced in libprotobuf.lib(coded_stream.obj)
+          Loaded MSVCRT.lib(llshl.obj)
+        Found __allmul
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Loaded MSVCRT.lib(llmul.obj)
+        Found __aulldiv
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Loaded MSVCRT.lib(ulldiv.obj)
+        Found __alldiv
+          Referenced in libprotobuf.lib(strutil.obj)
+          Loaded MSVCRT.lib(lldiv.obj)
+        Found @_guard_check_icall@4
+          Referenced in MSVCRT.lib(ehvecdtr.obj)
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Referenced in msvcprt.lib(locale0_implib.obj)
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(thread_safe_statics.obj)
+          Referenced in MSVCRT.lib(ehvecctr.obj)
+          Loaded MSVCRT.lib(checkcfg.obj)
+        Found "void __cdecl __scrt_throw_std_bad_alloc(void)" (?__scrt_throw_std_bad_alloc@@YAXXZ)
+          Referenced in MSVCRT.lib(new_scalar.obj)
+          Loaded MSVCRT.lib(throw_bad_alloc.obj)
+        Found ___isa_available_init
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(_cpu_disp_.obj)
+        Found __get_startup_argv_mode
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(argv_mode.obj)
+        Found ___scrt_is_ucrt_dll_in_use
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(ucrt_detection.obj)
+        Found ___scrt_fastfail
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(thread_safe_statics.obj)
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(utility_desktop.obj)
+        Found __SEH_epilog4
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(ehvecctr.obj)
+          Referenced in MSVCRT.lib(ehvecdtr.obj)
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(_sehprolg4_.obj)
+        Found __except_handler4
+          Referenced in MSVCRT.lib(_sehprolg4_.obj)
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(ehvecctr.obj)
+          Referenced in MSVCRT.lib(ehvecdtr.obj)
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(_chandler4gs_.obj)
+        Found ___security_init_cookie
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(gs_support.obj)
+        Found "void __cdecl __scrt_initialize_type_info(void)" (?__scrt_initialize_type_info@@YAXXZ)
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(tncleanup.obj)
+        Found ___scrt_initialize_default_local_stdio_options
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(default_local_stdio_options.obj)
+        Found ___scrt_get_dyn_tls_init_callback
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(dyn_tls_init.obj)
+        Found __RTC_Initialize
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(_initsect_.obj)
+        Found ___xi_a
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(initializers.obj)
+  Processed /DEFAULTLIB:kernel32.lib
+   Processed /DISALLOWLIB:msvcrtd.lib
+   Processed /DISALLOWLIB:libcmt.lib
+   Processed /DISALLOWLIB:libcmtd.lib
+  Processed /DEFAULTLIB:vcruntime.lib
+   Processed /DISALLOWLIB:vcruntimed.lib
+   Processed /DISALLOWLIB:libvcruntime.lib
+   Processed /DISALLOWLIB:libvcruntimed.lib
+  Processed /DEFAULTLIB:ucrt.lib
+   Processed /DISALLOWLIB:ucrtd.lib
+   Processed /DISALLOWLIB:libucrt.lib
+   Processed /DISALLOWLIB:libucrtd.lib
+        Found ___guard_check_icall_fptr
+          Referenced in MSVCRT.lib(checkcfg.obj)
+          Loaded MSVCRT.lib(guard_support.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\OLDNAMES.lib:
+        Found __imp__close
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Loaded OLDNAMES.lib(close.obi)
+        Found __imp__read
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Loaded OLDNAMES.lib(read.obi)
+        Found __imp__write
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Loaded OLDNAMES.lib(write.obi)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\psapi.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\imm32.lib:
+        Found _ImmGetContext@4
+          Referenced in imgui.obj
+          Loaded imm32.lib(IMM32.dll)
+        Found _ImmSetCompositionWindow@8
+          Referenced in imgui.obj
+          Loaded imm32.lib(IMM32.dll)
+        Found __IMPORT_DESCRIPTOR_IMM32
+          Referenced in imm32.lib(IMM32.dll)
+          Referenced in imm32.lib(IMM32.dll)
+          Loaded imm32.lib(IMM32.dll)
+        Found IMM32_NULL_THUNK_DATA
+          Referenced in imm32.lib(IMM32.dll)
+          Loaded imm32.lib(IMM32.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\vcruntime.lib:
+        Found ___CxxFrameHandler3
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(stringprintf.obj)
+          Referenced in msvcprt.lib(locale0_implib.obj)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(substitute.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(reflection_ops.obj)
+          Referenced in libprotobuf.lib(wire_format.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(unknown_field_set.obj)
+          Referenced in libprotobuf.lib(coded_stream.obj)
+          Referenced in libprotobuf.lib(wire_format_lite.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in Spoofed.obj
+          Referenced in Settings.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in network_connection.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in imgui_draw.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in Engine.obj
+          Referenced in NetVar.obj
+          Referenced in Players.obj
+          Referenced in imgui.obj
+          Referenced in CSX_Cvar.obj
+          Referenced in CSX_Log.obj
+          Referenced in CSX_Memory.obj
+          Referenced in CSX_Utils.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found _memcpy
+          Referenced in libprotobuf.lib(stringprintf.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(substitute.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(coded_stream.obj)
+          Referenced in libprotobuf.lib(wire_format_lite.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(reflection_ops.obj)
+          Referenced in libprotobuf.lib(repeated_field.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in libprotobuf.lib(unknown_field_set.obj)
+          Referenced in steammessages.pb.obj
+          Referenced in Settings.obj
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in network_connection.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in Weapon.obj
+          Referenced in imgui.obj
+          Referenced in imgui_draw.obj
+          Referenced in imgui_impl_dx9.obj
+          Referenced in NetVar.obj
+          Referenced in Offset.obj
+          Referenced in Players.obj
+          Referenced in Render.obj
+          Referenced in CSX_Utils.obj
+          Referenced in Engine.obj
+          Referenced in Entity.obj
+          Referenced in Hook.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Cvar.obj
+          Referenced in CSX_Hook.obj
+          Referenced in CSX_Log.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in Radar.obj
+          Referenced in DynSkin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found _memset
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(substitute.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(unknown_field_set.obj)
+          Referenced in libprotobuf.lib(coded_stream.obj)
+          Referenced in libprotobuf.lib(wire_format_lite.obj)
+          Referenced in imgui_draw.obj
+          Referenced in License.obj
+          Referenced in Settings.obj
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in Engine.obj
+          Referenced in Players.obj
+          Referenced in Render.obj
+          Referenced in imgui.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Cvar.obj
+          Referenced in CSX_Log.obj
+          Referenced in CSX_Utils.obj
+          Referenced in LagComp.obj
+          Referenced in Esp.obj
+          Referenced in InventoryChanger.obj
+          Referenced in DynSkin.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __purecall
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in steammessages.pb.obj
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in network_connection.pb.obj
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in Entity.obj
+          Referenced in Players.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Referenced in DynSkin.obj
+          Referenced in Engine.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found _memmove
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(substitute.obj)
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(stringprintf.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(coded_stream.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(reflection_ops.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in libprotobuf.lib(unknown_field_set.obj)
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in Settings.obj
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in network_connection.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in imgui.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in CSX_Utils.obj
+          Referenced in Engine.obj
+          Referenced in NetVar.obj
+          Referenced in Players.obj
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Cvar.obj
+          Referenced in CSX_Log.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found _strstr
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Referenced in Skin.obj
+          Referenced in imgui.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __CxxThrowException@8
+          Referenced in MSVCRT.lib(throw_bad_alloc.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(reflection_ops.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in libprotobuf.lib(unknown_field_set.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in NetVar.obj
+          Referenced in License.obj
+          Referenced in Settings.obj
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Log.obj
+          Referenced in Engine.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found _memchr
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in Esp.obj
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Utils.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___std_exception_copy
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in MSVCRT.lib(throw_bad_alloc.obj)
+          Referenced in Esp.obj
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Log.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___std_exception_destroy
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in MSVCRT.lib(throw_bad_alloc.obj)
+          Referenced in Esp.obj
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Log.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found _memcmp
+          Referenced in imgui_draw.obj
+          Referenced in License.obj
+          Referenced in Esp.obj
+          Referenced in Misc.obj
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found _strchr
+          Referenced in imgui.obj
+          Referenced in libprotobuf.lib(strutil.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___RTDynamicCast
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in fatdemo.pb.obj
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___std_terminate
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in libprotobuf.lib(unknown_field_set.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___vcrt_InitializeCriticalSectionEx
+          Referenced in MSVCRT.lib(thread_safe_statics.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __except_handler4_common
+          Referenced in MSVCRT.lib(_chandler4gs_.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___std_type_info_destroy_list
+          Referenced in MSVCRT.lib(tncleanup.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __IMPORT_DESCRIPTOR_VCRUNTIME140
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found VCRUNTIME140_NULL_THUNK_DATA
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86\ucrt.lib:
+        Found __imp__calloc
+          Referenced in Weapon.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in Settings.obj
+          Referenced in NetVar.obj
+          Referenced in Offset.obj
+          Referenced in Players.obj
+          Referenced in Render.obj
+          Referenced in Skin.obj
+          Referenced in Engine.obj
+          Referenced in Entity.obj
+          Referenced in Hook.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Referenced in Radar.obj
+          Referenced in DynSkin.obj
+          Referenced in Aimbot.obj
+          Referenced in LagComp.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __libm_sse2_pow_precise
+          Referenced in Aimbot.obj
+          Referenced in Engine.obj
+          Referenced in imgui.obj
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found __libm_sse2_cos_precise
+          Referenced in LagComp.obj
+          Referenced in Radar.obj
+          Referenced in Engine.obj
+          Referenced in imgui_draw.obj
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found __libm_sse2_sin_precise
+          Referenced in LagComp.obj
+          Referenced in Radar.obj
+          Referenced in Engine.obj
+          Referenced in imgui_draw.obj
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found __imp___invalid_parameter_noinfo_noreturn
+          Referenced in libprotobuf.lib(extension_set_heavy.obj)
+          Referenced in libprotobuf.lib(stringprintf.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Referenced in libprotobuf.lib(tokenizer.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(substitute.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+          Referenced in libprotobuf.lib(descriptor_database.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Referenced in libprotobuf.lib(generated_message_reflection.obj)
+          Referenced in libprotobuf.lib(reflection_ops.obj)
+          Referenced in libprotobuf.lib(wire_format.obj)
+          Referenced in libprotobuf.lib(descriptor.pb.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in libprotobuf.lib(unknown_field_set.obj)
+          Referenced in libprotobuf.lib(coded_stream.obj)
+          Referenced in libprotobuf.lib(wire_format_lite.obj)
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(repeated_field.obj)
+          Referenced in libprotobuf.lib(generated_message_util.obj)
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in steamdatagram_messages.pb.obj
+          Referenced in steammessages.pb.obj
+          Referenced in Settings.obj
+          Referenced in libprotobuf.lib(message_lite.obj)
+          Referenced in gcsdk_gcmessages.pb.obj
+          Referenced in gcsystemmsgs.pb.obj
+          Referenced in netmessages.pb.obj
+          Referenced in network_connection.pb.obj
+          Referenced in cstrike15_gcmessages.pb.obj
+          Referenced in econ_gcmessages.pb.obj
+          Referenced in engine_gcmessages.pb.obj
+          Referenced in fatdemo.pb.obj
+          Referenced in Players.obj
+          Referenced in License.obj
+          Referenced in Main.obj
+          Referenced in base_gcmessages.pb.obj
+          Referenced in CSX_Memory.obj
+          Referenced in CSX_Utils.obj
+          Referenced in Engine.obj
+          Referenced in NetVar.obj
+          Referenced in DynSkin.obj
+          Referenced in Skin.obj
+          Referenced in CSX_Cvar.obj
+          Referenced in CSX_Log.obj
+          Referenced in Client.obj
+          Referenced in Esp.obj
+          Referenced in InventoryChanger.obj
+          Referenced in Misc.obj
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __imp__free
+          Referenced in Client.obj
+          Referenced in imgui.obj
+          Referenced in Spoofed.obj
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __imp__malloc
+          Referenced in Client.obj
+          Referenced in imgui.obj
+          Referenced in Spoofed.obj
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __imp__asctime
+          Referenced in Client.obj
+          Loaded ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+        Found __imp___localtime64
+          Referenced in Client.obj
+          Loaded ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+        Found __imp___time64
+          Referenced in Client.obj
+          Loaded ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+        Found __imp___invalid_parameter_noinfo
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __imp___errno
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __imp__atoi
+          Referenced in DynSkin.obj
+          Referenced in CSX_Cvar.obj
+          Referenced in imgui.obj
+          Loaded ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+        Found __imp___get_stream_buffer_pointers
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__fclose
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in imgui.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__fflush
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Referenced in imgui.obj
+          Referenced in libprotobuf.lib(common.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__fgetc
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__fgetpos
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__fputc
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__fsetpos
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp___fseeki64
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__fwrite
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__setvbuf
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__ungetc
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp___lock_file
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded ucrt.lib(api-ms-win-crt-filesystem-l1-1-0.dll)
+        Found __imp___unlock_file
+          Referenced in DynSkin.obj
+          Referenced in CSX_Log.obj
+          Loaded ucrt.lib(api-ms-win-crt-filesystem-l1-1-0.dll)
+        Found __imp__strcpy_s
+          Referenced in Skin.obj
+          Referenced in Engine.obj
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found __imp__strcat_s
+          Referenced in Skin.obj
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found __imp__atof
+          Referenced in CSX_Cvar.obj
+          Loaded ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+        Found __imp____stdio_common_vsprintf
+          Referenced in libprotobuf.lib(strutil.obj)
+          Referenced in libprotobuf.lib(stringprintf.obj)
+          Referenced in CSX_Cvar.obj
+          Referenced in imgui.obj
+          Referenced in imgui_draw.obj
+          Referenced in libprotobuf.lib(common.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp____stdio_common_vsprintf_s
+          Referenced in Spoofed.obj
+          Referenced in CSX_Cvar.obj
+          Referenced in CSX_Log.obj
+          Referenced in Engine.obj
+          Referenced in Render.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__srand
+          Referenced in CSX_Utils.obj
+          Loaded ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+        Found __imp__rand
+          Referenced in Vector4D.obj
+          Referenced in CSX_Utils.obj
+          Referenced in Engine.obj
+          Referenced in Vector.obj
+          Referenced in Vector2D.obj
+          Loaded ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+        Found __imp__strncmp
+          Referenced in Engine.obj
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found __CIatan2
+          Referenced in Engine.obj
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found __libm_sse2_sqrt_precise
+          Referenced in Vector4D.obj
+          Referenced in Engine.obj
+          Referenced in imgui_draw.obj
+          Referenced in Vector.obj
+          Referenced in Vector2D.obj
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found __imp__strncpy
+          Referenced in imgui.obj
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found __imp____acrt_iob_func
+          Referenced in imgui.obj
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp___wfopen
+          Referenced in imgui.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__fread
+          Referenced in imgui.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__fseek
+          Referenced in imgui.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__ftell
+          Referenced in imgui.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp____stdio_common_vfprintf
+          Referenced in imgui.obj
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in libprotobuf.lib(text_format.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp____stdio_common_vsscanf
+          Referenced in imgui.obj
+          Referenced in imguicolorpicker.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__isprint
+          Referenced in imgui.obj
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found __imp__toupper
+          Referenced in imgui.obj
+          Referenced in License.obj
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found __imp__qsort
+          Referenced in imgui.obj
+          Referenced in imgui_draw.obj
+          Loaded ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+        Found __CIfmod
+          Referenced in imgui.obj
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found _ceil
+          Referenced in imgui_draw.obj
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found _floor
+          Referenced in imgui_draw.obj
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found __imp___fdtest
+          Referenced in Vector.obj
+          Referenced in Vector2D.obj
+          Referenced in Vector4D.obj
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found __imp__ldiv
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(message.obj)
+          Referenced in libprotobuf.lib(extension_set.obj)
+          Referenced in libprotobuf.lib(dynamic_message.obj)
+          Loaded ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+        Found __imp__strtol
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Loaded ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+        Found __imp__strtoul
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Referenced in libprotobuf.lib(strutil.obj)
+          Loaded ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+        Found __imp___strtoi64
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Loaded ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+        Found __imp___strtoui64
+          Referenced in libprotobuf.lib(descriptor.obj)
+          Loaded ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+        Found __imp__strtod
+          Referenced in libprotobuf.lib(strutil.obj)
+          Loaded ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+        Found __imp__strpbrk
+          Referenced in libprotobuf.lib(strutil.obj)
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found __imp__strerror
+          Referenced in libprotobuf.lib(zero_copy_stream_impl.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __callnewh
+          Referenced in MSVCRT.lib(new_scalar.obj)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __seh_filter_dll
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __configure_narrow_argv
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __initialize_narrow_environment
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __initialize_onexit_table
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __register_onexit_function
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __execute_onexit_table
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __crt_atexit
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __crt_at_quick_exit
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __cexit
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _terminate
+          Referenced in MSVCRT.lib(ehvecdtr.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __except1
+          Referenced in MSVCRT.lib(_ftol3_.obj)
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found __initterm
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __initterm_e
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __imp___close
+          Referenced in OLDNAMES.lib(close.obi)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp___read
+          Referenced in OLDNAMES.lib(read.obi)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp___write
+          Referenced in OLDNAMES.lib(write.obi)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-time-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-convert-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-filesystem-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-filesystem-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-filesystem-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-filesystem-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-utility-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+        Found api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found api-ms-win-crt-time-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+        Found api-ms-win-crt-convert-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+        Found api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found api-ms-win-crt-filesystem-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-filesystem-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-filesystem-l1-1-0.dll)
+        Found api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found api-ms-win-crt-utility-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\kernel32.lib:
+        Found __imp__InitializeCriticalSection@4
+          Referenced in libprotobuf.lib(common.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__EnterCriticalSection@4
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in MSVCRT.lib(thread_safe_statics.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__LeaveCriticalSection@4
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in MSVCRT.lib(thread_safe_statics.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__DeleteCriticalSection@4
+          Referenced in libprotobuf.lib(common.obj)
+          Referenced in MSVCRT.lib(thread_safe_statics.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetEvent@4
+          Referenced in MSVCRT.lib(thread_safe_statics.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__ResetEvent@4
+          Referenced in MSVCRT.lib(thread_safe_statics.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__WaitForSingleObjectEx@12
+          Referenced in MSVCRT.lib(thread_safe_statics.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__CreateEventW@16
+          Referenced in MSVCRT.lib(thread_safe_statics.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleHandleW@4
+          Referenced in MSVCRT.lib(thread_safe_statics.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__UnhandledExceptionFilter@4
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetUnhandledExceptionFilter@4
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _IsProcessorFeaturePresent@4
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(_cpu_disp_.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__IsDebuggerPresent@0
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetStartupInfoW@4
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcessId@0
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentThreadId@0
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetSystemTimeAsFileTime@4
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__InitializeSListHead@4
+          Referenced in MSVCRT.lib(tncleanup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbccp32.lib:
+      Searching protobuf\libprotobuf.lib:
+      Searching protobuf\libprotoc.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib:
+      Searching C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\wininet.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\Winmm.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\psapi.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\imm32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\vcruntime.lib:
+  
+  Finished searching libraries
+  
+  Generating .exp file
+     Creating library C:\Users\mruna\Downloads\SMEF's INDIGO\smef-s-Indigo-Remasterd-master\Release\Ignitor.lib and object C:\Users\mruna\Downloads\SMEF's INDIGO\smef-s-Indigo-Remasterd-master\Release\Ignitor.exp
+  
+  Finished generating .exp file
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbccp32.lib:
+      Searching protobuf\libprotobuf.lib:
+      Searching protobuf\libprotoc.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib:
+      Searching C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\wininet.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\Winmm.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\psapi.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\imm32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86\ucrt.lib:
+  
+  Finished searching libraries
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbccp32.lib:
+      Searching protobuf\libprotobuf.lib:
+      Searching protobuf\libprotoc.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib:
+      Searching C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\wininet.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\Winmm.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\MSVCRT.lib:
+        Found ___scrt_stub_for_acrt_initialize
+          Loaded MSVCRT.lib(ucrt_stubs.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\psapi.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\imm32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86\ucrt.lib:
+  
+  Finished searching libraries
+  
+  Finished pass 1
+  
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbccp32.lib:
+      Searching protobuf\libprotobuf.lib:
+      Searching protobuf\libprotoc.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib:
+      Searching C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\wininet.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\Winmm.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\MSVCRT.lib:
+        Found __load_config_used
+          Loaded MSVCRT.lib(loadcfg.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\psapi.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\imm32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86\ucrt.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbccp32.lib:
+      Searching protobuf\libprotobuf.lib:
+      Searching protobuf\libprotoc.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\lib\x86\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib:
+      Searching C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\wininet.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\Winmm.lib:
+  
+  Finished searching libraries
+  
+  Invoking rc.exe:
+   /v
+   /x
+   /fo
+   "C:\Users\mruna\AppData\Local\Temp\lnk{B4091FD3-7D6C-4492-99AA-5F1B9C5BE0C3}.tmp"
+   "C:\Users\mruna\AppData\Local\Temp\lnk{22CEECB7-4B90-4A5E-9C77-5193B2E4E67C}.tmp"
+  Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Creating C:\Users\mruna\AppData\Local\Temp\lnk{B4091FD3-7D6C-4492-99AA-5F1B9C5BE0C3}.tmp
+  
+  Using codepage 1252 as default
+  
+  C:\Users\mruna\AppData\Local\Temp\lnk{22CEECB7-4B90-4A5E-9C77-5193B2E4E67C}.tmp.
+  Writing 24:2,	lang:0x409,	size 381
+  
+  Invoking cvtres.exe:
+   /machine:x86
+   /verbose
+   /out:"C:\Users\mruna\AppData\Local\Temp\lnk{180153A1-981B-4F8E-B479-CE871F3BF4C2}.tmp"
+   /readonly
+   "C:\Users\mruna\AppData\Local\Temp\lnk{B4091FD3-7D6C-4492-99AA-5F1B9C5BE0C3}.tmp"
+  Microsoft (R) Windows Resource To Object Converter Version 14.13.26128.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  adding resource. type:MANIFEST, name:2, language:0x0409, flags:0x30, size:381
+  
+  Unused libraries:
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbccp32.lib
+    protobuf\libprotoc.lib
+    C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\psapi.lib
+  
+  Starting pass 2
+       * linker generated manifest res *
+       Ignitor.exp
+       Settings.obj
+       VMatrix.obj
+       Vector4D.obj
+       Vector2D.obj
+       Vector.obj
+       Spoofed.obj
+       Sounds.obj
+       SDK.obj
+       KeyValues.obj
+       CRC.obj
+       ReflectiveLoader.obj
+       steammessages.pb.obj
+       steamdatagram_messages.pb.obj
+       network_connection.pb.obj
+       netmessages.pb.obj
+       gcsystemmsgs.pb.obj
+       gcsdk_gcmessages.pb.obj
+       fatdemo.pb.obj
+       engine_gcmessages.pb.obj
+       econ_gcmessages.pb.obj
+       cstrike15_gcmessages.pb.obj
+       base_gcmessages.pb.obj
+       Main.obj
+       License.obj
+       imgui_impl_dx9.obj
+       imgui_draw.obj
+       imguicolorpicker.obj
+       imgui.obj
+       Gui.obj
+       Weapon.obj
+       Render.obj
+       Players.obj
+       Offset.obj
+       NetVar.obj
+       Hook.obj
+       Entity.obj
+       Engine.obj
+       CSX_Utils.obj
+       CSX_Memory.obj
+       CSX_Log.obj
+       CSX_Hook.obj
+       CSX_Cvar.obj
+       Skin.obj
+       DynSkin.obj
+       Radar.obj
+       Misc.obj
+       InventoryChanger.obj
+       Esp.obj
+       Client.obj
+       LagComp.obj
+       Aimbot.obj
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       advapi32.lib(ADVAPI32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       oleaut32.lib(OLEAUT32.dll)
+       libprotobuf.lib(descriptor.obj)
+       libprotobuf.lib(descriptor.pb.obj)
+       libprotobuf.lib(descriptor_database.obj)
+       libprotobuf.lib(dynamic_message.obj)
+       libprotobuf.lib(extension_set.obj)
+       libprotobuf.lib(extension_set_heavy.obj)
+       libprotobuf.lib(generated_message_reflection.obj)
+       libprotobuf.lib(generated_message_util.obj)
+       libprotobuf.lib(coded_stream.obj)
+       libprotobuf.lib(tokenizer.obj)
+       libprotobuf.lib(zero_copy_stream.obj)
+       libprotobuf.lib(zero_copy_stream_impl.obj)
+       libprotobuf.lib(zero_copy_stream_impl_lite.obj)
+       libprotobuf.lib(message.obj)
+       libprotobuf.lib(message_lite.obj)
+       libprotobuf.lib(reflection_ops.obj)
+       libprotobuf.lib(repeated_field.obj)
+       libprotobuf.lib(atomicops_internals_x86_msvc.obj)
+       libprotobuf.lib(common.obj)
+       libprotobuf.lib(once.obj)
+       libprotobuf.lib(stringprintf.obj)
+       libprotobuf.lib(structurally_valid.obj)
+       libprotobuf.lib(strutil.obj)
+       libprotobuf.lib(substitute.obj)
+       libprotobuf.lib(text_format.obj)
+       libprotobuf.lib(unknown_field_set.obj)
+       libprotobuf.lib(wire_format.obj)
+       libprotobuf.lib(wire_format_lite.obj)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(locale0_implib.obj)
+       d3dx9.lib(d3dx9_43.dll)
+       d3dx9.lib(d3dx9_43.dll)
+       d3dx9.lib(d3dx9_43.dll)
+       wininet.lib(WININET.dll)
+       wininet.lib(WININET.dll)
+       wininet.lib(WININET.dll)
+       wininet.lib(WININET.dll)
+       wininet.lib(WININET.dll)
+       wininet.lib(WININET.dll)
+       wininet.lib(WININET.dll)
+       wininet.lib(WININET.dll)
+       Winmm.lib(WINMM.dll)
+       Winmm.lib(WINMM.dll)
+       Winmm.lib(WINMM.dll)
+       MSVCRT.lib(_cpu_disp_.obj)
+       MSVCRT.lib(_initsect_.obj)
+       MSVCRT.lib(_sehprolg4_.obj)
+       MSVCRT.lib(_ftol2_.obj)
+       MSVCRT.lib(_ftol3_.obj)
+       MSVCRT.lib(_chandler4gs_.obj)
+       MSVCRT.lib(_secchk_.obj)
+       MSVCRT.lib(lldiv.obj)
+       MSVCRT.lib(llmul.obj)
+       MSVCRT.lib(llshl.obj)
+       MSVCRT.lib(ulldiv.obj)
+       MSVCRT.lib(alloca16.obj)
+       MSVCRT.lib(chkstk.obj)
+       MSVCRT.lib(atlssup.obj)
+       MSVCRT.lib(gs_cookie.obj)
+       MSVCRT.lib(gs_report.obj)
+       MSVCRT.lib(gs_support.obj)
+       MSVCRT.lib(checkcfg.obj)
+       MSVCRT.lib(guard_support.obj)
+       MSVCRT.lib(loadcfg.obj)
+       MSVCRT.lib(dyn_tls_init.obj)
+       MSVCRT.lib(ucrt_detection.obj)
+       MSVCRT.lib(argv_mode.obj)
+       MSVCRT.lib(default_local_stdio_options.obj)
+       MSVCRT.lib(fltused.obj)
+       MSVCRT.lib(ehvecctr.obj)
+       MSVCRT.lib(ehvecdtr.obj)
+       MSVCRT.lib(std_type_info_static.obj)
+       MSVCRT.lib(tncleanup.obj)
+       MSVCRT.lib(delete_array.obj)
+       MSVCRT.lib(delete_array_size.obj)
+       MSVCRT.lib(delete_scalar.obj)
+       MSVCRT.lib(delete_scalar_size.obj)
+       MSVCRT.lib(new_array.obj)
+       MSVCRT.lib(new_scalar.obj)
+       MSVCRT.lib(throw_bad_alloc.obj)
+       MSVCRT.lib(thread_safe_statics.obj)
+       MSVCRT.lib(dll_dllmain.obj)
+       MSVCRT.lib(tlssup.obj)
+       MSVCRT.lib(initializers.obj)
+       MSVCRT.lib(utility.obj)
+       MSVCRT.lib(ucrt_stubs.obj)
+       MSVCRT.lib(utility_desktop.obj)
+       OLDNAMES.lib(close.obi)
+       OLDNAMES.lib(read.obi)
+       OLDNAMES.lib(write.obi)
+       imm32.lib(IMM32.dll)
+       imm32.lib(IMM32.dll)
+       imm32.lib(IMM32.dll)
+       imm32.lib(IMM32.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-filesystem-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-filesystem-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-filesystem-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-filesystem-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)
+  Finished pass 2
+  INDIGO.vcxproj -> C:\Users\mruna\Downloads\SMEF's INDIGO\smef-s-Indigo-Remasterd-master\Release\Ignitor.dll

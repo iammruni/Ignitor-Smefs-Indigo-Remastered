@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(4) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(5) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(6) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(7) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned short' passed as _Param_(8) when some signed type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+      <FILENAME>client.cpp</FILENAME>
+      <LINE>217</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'ptr':  the writable size is 'Message.ByteSize()+8' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>Client::SendMMHello</FUNCTION>
+    <DECORATED>?SendMMHello@Client@@YAXXZ</DECORATED>
+    <FUNCLINE>209</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>211</LINE>
+        <COLUMN>47</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>212</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ptr' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>213</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!ptr' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>215</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>217</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'ptr', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+      <FILENAME>client.cpp</FILENAME>
+      <LINE>231</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'ptr':  the writable size is 'Message.ByteSize()+8' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>Client::SendClientHello</FUNCTION>
+    <DECORATED>?SendClientHello@Client@@YAXXZ</DECORATED>
+    <FUNCLINE>222</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ptr' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>228</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!ptr' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'ptr', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

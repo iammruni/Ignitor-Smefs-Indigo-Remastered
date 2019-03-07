@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+      <FILENAME>csx_utils.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'hEvent' could be '0':  this does not adhere to the specification for the function 'WaitForSingleObject'. </DESCRIPTION>
+    <FUNCTION>CSX::Utils::IsModuleLoad</FUNCTION>
+    <DECORATED>?IsModuleLoad@Utils@CSX@@YA_NPADK@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'hEvent' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'hEvent' is an Input to 'WaitForSingleObject' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\synchapi.h:440)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'hEvent' should not be NULL, because this is not consistent with the SAL annotation on 'WaitForSingleObject'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+      <FILENAME>csx_utils.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory '*hEvent'.</DESCRIPTION>
+    <FUNCTION>CSX::Utils::IsModuleLoad</FUNCTION>
+    <DECORATED>?IsModuleLoad@Utils@CSX@@YA_NPADK@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*hEvent' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume '!hModule')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'dwMsecFind==dwMsec' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'*hEvent' is an Input to 'WaitForSingleObject' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\synchapi.h:440)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*hEvent' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+      <FILENAME>csx_utils.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'hEvent' could be '0':  this does not adhere to the specification for the function 'CloseHandle'. See line 27 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>CSX::Utils::IsModuleLoad</FUNCTION>
+    <DECORATED>?IsModuleLoad@Utils@CSX@@YA_NPADK@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'hEvent' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'hEvent' is an Input to 'WaitForSingleObject' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\synchapi.h:440)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'hEvent' is an Input to 'CloseHandle' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\handleapi.h:56)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'hEvent' should not be NULL, because this is not consistent with the SAL annotation on 'CloseHandle'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+      <FILENAME>csx_utils.cpp</FILENAME>
+      <LINE>95</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>CSX::Utils::RandomIntRange</FUNCTION>
+    <DECORATED>?RandomIntRange@Utils@CSX@@YAHHH@Z</DECORATED>
+    <FUNCLINE>89</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

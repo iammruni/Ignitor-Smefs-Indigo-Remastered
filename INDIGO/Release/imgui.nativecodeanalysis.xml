@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>2540</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'const bool' passed as _Param_(3) when some signed type is required in call to 'fprintf'.</DESCRIPTION>
+    <FUNCTION>SaveIniSettingsToDisk</FUNCTION>
+    <DECORATED>?SaveIniSettingsToDisk@@YAXPBD@Z</DECORATED>
+    <FUNCLINE>2505</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>9091</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>ImGui::ColorEdit4</FUNCTION>
+    <DECORATED>?ColorEdit4@ImGui@@YA_NPBDQAM_N@Z</DECORATED>
+    <FUNCLINE>9011</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>9093</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>ImGui::ColorEdit4</FUNCTION>
+    <DECORATED>?ColorEdit4@ImGui@@YA_NPBDQAM_N@Z</DECORATED>
+    <FUNCLINE>9011</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>9114</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'button_titles':  the readable size is '12' bytes, but 'edit_mode' bytes may be read.</DESCRIPTION>
+    <FUNCTION>ImGui::ColorEdit4</FUNCTION>
+    <DECORATED>?ColorEdit4@ImGui@@YA_NPBDQAM_N@Z</DECORATED>
+    <FUNCLINE>9011</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9013</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9014</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9017</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9018</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9019</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9020</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9021</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9023</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9024</LINE>
+        <COLUMN>51</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9027</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9028</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9031</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9033</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9034</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9036</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9037</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9039</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9040</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9100</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9102</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9103</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9107</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9110</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'edit_mode' may equal -1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9112</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9113</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'button_titles' is an array of 3 elements (12 bytes)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9114</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'button_titles' is an Output from 'ImGui::ButtonEx' (declared at c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\imgui_internal.h:742)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9114</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'button_titles[-1]', (readable range is 0 to 2)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

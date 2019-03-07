@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imguicolorpicker.cpp</FILENAME>
+      <LINE>304</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'alpha' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '214' of 'c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\imguicolorpicker.cpp'.</DESCRIPTION>
+    <FUNCTION>ImGui::MyColorPicker4</FUNCTION>
+    <DECORATED>?MyColorPicker4@ImGui@@YA_NPBDQAMH@Z</DECORATED>
+    <FUNCLINE>205</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imguicolorpicker.cpp</FILENAME>
+        <LINE>214</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

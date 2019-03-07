@@ -1,0 +1,4641 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(4) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+      <FILENAME>lagcomp.cpp</FILENAME>
+      <LINE>112</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'bestTargetSimTime'.</DESCRIPTION>
+    <FUNCTION>SDK::BackTrack::legitBackTrack</FUNCTION>
+    <DECORATED>?legitBackTrack@BackTrack@SDK@@QAEXPAVCUserCmd@2@@Z</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>83</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>85</LINE>
+        <COLUMN>84</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>91</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>62</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'bestTargetSimTime' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>98</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'bestTargetIndex!=-1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>100</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 't&lt;aim_Backtracktickrate' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'bestTargetSimTime' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+      <FILENAME>client.cpp</FILENAME>
+      <LINE>217</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'ptr':  the writable size is 'Message.ByteSize()+8' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>Client::SendMMHello</FUNCTION>
+    <DECORATED>?SendMMHello@Client@@YAXXZ</DECORATED>
+    <FUNCLINE>209</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>211</LINE>
+        <COLUMN>47</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>212</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ptr' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>213</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!ptr' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>215</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>217</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'ptr', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+      <FILENAME>client.cpp</FILENAME>
+      <LINE>231</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'ptr':  the writable size is 'Message.ByteSize()+8' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>Client::SendClientHello</FUNCTION>
+    <DECORATED>?SendClientHello@Client@@YAXXZ</DECORATED>
+    <FUNCLINE>222</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ptr' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>228</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!ptr' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\</FILEPATH>
+        <FILENAME>client.cpp</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'ptr', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\</FILEPATH>
+      <FILENAME>esp.cpp</FILENAME>
+      <LINE>393</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6281</DEFECTCODE>
+    <DESCRIPTION>Incorrect order of operations:  relational operators have higher precedence than bitwise operators.</DESCRIPTION>
+    <FUNCTION>CEsp::GrenadePrediction</FUNCTION>
+    <DECORATED>?GrenadePrediction@CEsp@@QAEXXZ</DECORATED>
+    <FUNCLINE>347</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\</FILEPATH>
+      <FILENAME>esp.cpp</FILENAME>
+      <LINE>416</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'color' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '406' of 'c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\esp.cpp'.</DESCRIPTION>
+    <FUNCTION>CEsp::GrenadePrediction</FUNCTION>
+    <DECORATED>?GrenadePrediction@CEsp@@QAEXXZ</DECORATED>
+    <FUNCLINE>347</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\</FILEPATH>
+        <FILENAME>esp.cpp</FILENAME>
+        <LINE>406</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\esp\</FILEPATH>
+      <FILENAME>esp.cpp</FILENAME>
+      <LINE>525</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '18920' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>CEsp::OnRender</FUNCTION>
+    <DECORATED>?OnRender@CEsp@@QAEXXZ</DECORATED>
+    <FUNCLINE>525</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\misc\</FILEPATH>
+      <FILENAME>misc.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6313</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  zero-valued flag cannot be tested with bitwise-and.  Use an equality test to check for zero-valued flags.</DESCRIPTION>
+    <FUNCTION>CMisc::OnCreateMove</FUNCTION>
+    <DECORATED>?OnCreateMove@CMisc@@QAEXPAVCUserCmd@SDK@@@Z</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+      <FILENAME>dynskin.cpp</FILENAME>
+      <LINE>239</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'res' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '220' of 'c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\dynskin.cpp'.</DESCRIPTION>
+    <FUNCTION>DynSkin::Skins::CSkins::DumpTable</FUNCTION>
+    <DECORATED>?DumpTable@CSkins@Skins@DynSkin@@QAE_NV?$multimap@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVCLevel@Valve@File@DynSkin@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVCLevel@Valve@File@DynSkin@@@std@@@2@@std@@V?$unordered_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@5@0@Z</DECORATED>
+    <FUNCLINE>209</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>dynskin.cpp</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+      <FILENAME>skin.cpp</FILENAME>
+      <LINE>511</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'hooked_vmt':  the readable size is '_Old_4`size*sizeof(void *)' bytes, but '20' bytes may be read.</DESCRIPTION>
+    <FUNCTION>ApplyStickers</FUNCTION>
+    <DECORATED>?ApplyStickers@@YAXPAVCBaseAttributableItem@Engine@@@Z</DECORATED>
+    <FUNCLINE>496</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>498</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>500</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>501</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'hooked_vmt' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>503</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>505</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'IsCodePtr(vmt[size])' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>508</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>509</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'hooked_vmt' is an In/Out argument to 'memcpy' (declared at c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vcruntime_string.h:40)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>511</LINE>
+        <COLUMN>39</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'hooked_vmt', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+      <FILENAME>skin.cpp</FILENAME>
+      <LINE>512</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'hooked_vmt':  the writable size is 'size*4' bytes, but '20' bytes might be written.</DESCRIPTION>
+    <FUNCTION>ApplyStickers</FUNCTION>
+    <DECORATED>?ApplyStickers@@YAXPAVCBaseAttributableItem@Engine@@@Z</DECORATED>
+    <FUNCLINE>496</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>498</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>500</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>501</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'hooked_vmt' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>503</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>505</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'IsCodePtr(vmt[size])' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>508</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>509</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'hooked_vmt' is an In/Out argument to 'memcpy' (declared at c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vcruntime_string.h:40)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>511</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\skin\</FILEPATH>
+        <FILENAME>skin.cpp</FILENAME>
+        <LINE>512</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'hooked_vmt', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+      <FILENAME>csx_hook.cpp</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'pPtrNewTable' could be '0':  this does not adhere to the specification for the function 'memcpy'. </DESCRIPTION>
+    <FUNCTION>CSX::Hook::VTable::InitTable</FUNCTION>
+    <DECORATED>?InitTable@VTable@Hook@CSX@@QAE_NPAX@Z</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_hook.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_hook.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_hook.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_hook.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_hook.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'dwCountFunc')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_hook.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_hook.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_hook.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'pPtrNewTable' is an Output from 'memcpy' (declared at c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vcruntime_string.h:40)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_hook.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pPtrNewTable' should not be NULL, because this is not consistent with the SAL annotation on 'memcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+      <FILENAME>csx_memory.cpp</FILENAME>
+      <LINE>114</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'pDOSHeader'. </DESCRIPTION>
+    <FUNCTION>CSX::Memory::FindSignature</FUNCTION>
+    <DECORATED>?FindSignature@Memory@CSX@@YAKPBD0PAD@Z</DECORATED>
+    <FUNCLINE>110</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_memory.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_memory.cpp</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pDOSHeader' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_memory.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pDOSHeader' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+      <FILENAME>csx_utils.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'hEvent' could be '0':  this does not adhere to the specification for the function 'WaitForSingleObject'. </DESCRIPTION>
+    <FUNCTION>CSX::Utils::IsModuleLoad</FUNCTION>
+    <DECORATED>?IsModuleLoad@Utils@CSX@@YA_NPADK@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'hEvent' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'hEvent' is an Input to 'WaitForSingleObject' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\synchapi.h:440)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'hEvent' should not be NULL, because this is not consistent with the SAL annotation on 'WaitForSingleObject'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+      <FILENAME>csx_utils.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory '*hEvent'.</DESCRIPTION>
+    <FUNCTION>CSX::Utils::IsModuleLoad</FUNCTION>
+    <DECORATED>?IsModuleLoad@Utils@CSX@@YA_NPADK@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*hEvent' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume '!hModule')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'dwMsecFind==dwMsec' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'*hEvent' is an Input to 'WaitForSingleObject' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\synchapi.h:440)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*hEvent' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+      <FILENAME>csx_utils.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'hEvent' could be '0':  this does not adhere to the specification for the function 'CloseHandle'. See line 27 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>CSX::Utils::IsModuleLoad</FUNCTION>
+    <DECORATED>?IsModuleLoad@Utils@CSX@@YA_NPADK@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'hEvent' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'hEvent' is an Input to 'WaitForSingleObject' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\synchapi.h:440)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'hEvent' is an Input to 'CloseHandle' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\handleapi.h:56)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+        <FILENAME>csx_utils.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'hEvent' should not be NULL, because this is not consistent with the SAL annotation on 'CloseHandle'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\csx\</FILEPATH>
+      <FILENAME>csx_utils.cpp</FILENAME>
+      <LINE>95</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>CSX::Utils::RandomIntRange</FUNCTION>
+    <DECORATED>?RandomIntRange@Utils@CSX@@YAHHH@Z</DECORATED>
+    <FUNCLINE>89</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\engine\</FILEPATH>
+      <FILENAME>engine.cpp</FILENAME>
+      <LINE>316</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'value' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '279' of 'c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\engine\engine.cpp'.</DESCRIPTION>
+    <FUNCTION>Engine::ClanTag</FUNCTION>
+    <DECORATED>?ClanTag@Engine@@YAXXZ</DECORATED>
+    <FUNCLINE>273</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\engine\</FILEPATH>
+        <FILENAME>engine.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\engine\</FILEPATH>
+      <FILENAME>engine.cpp</FILENAME>
+      <LINE>404</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>Engine::ChatSpamRegular</FUNCTION>
+    <DECORATED>?ChatSpamRegular@Engine@@YAXXZ</DECORATED>
+    <FUNCLINE>400</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\engine\</FILEPATH>
+      <FILENAME>engine.cpp</FILENAME>
+      <LINE>406</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>Engine::ChatSpamRegular</FUNCTION>
+    <DECORATED>?ChatSpamRegular@Engine@@YAXXZ</DECORATED>
+    <FUNCLINE>400</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\engine\</FILEPATH>
+      <FILENAME>engine.cpp</FILENAME>
+      <LINE>418</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>Engine::ChatSpamRandom</FUNCTION>
+    <DECORATED>?ChatSpamRandom@Engine@@YAXXZ</DECORATED>
+    <FUNCLINE>413</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\engine\</FILEPATH>
+      <FILENAME>engine.cpp</FILENAME>
+      <LINE>420</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>Engine::ChatSpamRandom</FUNCTION>
+    <DECORATED>?ChatSpamRandom@Engine@@YAXXZ</DECORATED>
+    <FUNCLINE>413</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>2540</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'const bool' passed as _Param_(3) when some signed type is required in call to 'fprintf'.</DESCRIPTION>
+    <FUNCTION>SaveIniSettingsToDisk</FUNCTION>
+    <DECORATED>?SaveIniSettingsToDisk@@YAXPBD@Z</DECORATED>
+    <FUNCLINE>2505</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>9091</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>ImGui::ColorEdit4</FUNCTION>
+    <DECORATED>?ColorEdit4@ImGui@@YA_NPBDQAM_N@Z</DECORATED>
+    <FUNCLINE>9011</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>9093</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>ImGui::ColorEdit4</FUNCTION>
+    <DECORATED>?ColorEdit4@ImGui@@YA_NPBDQAM_N@Z</DECORATED>
+    <FUNCLINE>9011</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>9114</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'button_titles':  the readable size is '12' bytes, but 'edit_mode' bytes may be read.</DESCRIPTION>
+    <FUNCTION>ImGui::ColorEdit4</FUNCTION>
+    <DECORATED>?ColorEdit4@ImGui@@YA_NPBDQAM_N@Z</DECORATED>
+    <FUNCLINE>9011</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9013</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9014</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9017</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9018</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9019</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9020</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9021</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9023</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9024</LINE>
+        <COLUMN>51</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9027</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9028</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9031</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9033</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9034</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9036</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9037</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9039</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9040</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9100</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9102</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9103</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9107</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9110</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'edit_mode' may equal -1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9112</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9113</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'button_titles' is an array of 3 elements (12 bytes)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9114</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'button_titles' is an Output from 'ImGui::ButtonEx' (declared at c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\imgui_internal.h:742)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9114</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'button_titles[-1]', (readable range is 0 to 2)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imguicolorpicker.cpp</FILENAME>
+      <LINE>304</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'alpha' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '214' of 'c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\imguicolorpicker.cpp'.</DESCRIPTION>
+    <FUNCTION>ImGui::MyColorPicker4</FUNCTION>
+    <DECORATED>?MyColorPicker4@ImGui@@YA_NPBDQAMH@Z</DECORATED>
+    <FUNCLINE>205</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imguicolorpicker.cpp</FILENAME>
+        <LINE>214</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>stb_truetype.h</FILENAME>
+      <LINE>3491</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'buffer':  the readable size is '_Old_3`kernel_width' bytes, but '3' bytes may be read.</DESCRIPTION>
+    <FUNCTION>stbtt__h_prefilter</FUNCTION>
+    <DECORATED>?stbtt__h_prefilter@@YAXPAEHHHI@Z</DECORATED>
+    <FUNCLINE>3437</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3439</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'buffer' is a 8 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3440</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3441</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3442</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an Output from 'memset' (declared at c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vcruntime_string.h:60)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3443</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3443</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;h')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3444</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3445</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3446</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an Output from 'memset' (declared at c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vcruntime_string.h:60)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3448</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3451</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'kernel_width' ) resolves to case 2: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3452</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3453</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3453</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3454</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3455</LINE>
+        <COLUMN>59</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3456</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3453</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3453</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3489</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;w')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3491</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3492</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3489</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3489</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;w')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3491</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'buffer[2]', (readable range is 0 to 1)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>stb_truetype.h</FILENAME>
+      <LINE>3553</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'buffer':  the readable size is '_Old_3`kernel_width' bytes, but '3' bytes may be read.</DESCRIPTION>
+    <FUNCTION>stbtt__v_prefilter</FUNCTION>
+    <DECORATED>?stbtt__v_prefilter@@YAXPAEHHHI@Z</DECORATED>
+    <FUNCLINE>3499</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3501</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'buffer' is a 8 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3502</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3503</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3504</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an Output from 'memset' (declared at c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vcruntime_string.h:60)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3505</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3505</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;w')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3506</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3507</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3508</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an Output from 'memset' (declared at c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vcruntime_string.h:60)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3510</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3513</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'kernel_width' ) resolves to case 2: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3514</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3515</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3515</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3516</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3517</LINE>
+        <COLUMN>59</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3518</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3515</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3515</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3551</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;h')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3553</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3554</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3551</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3551</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;h')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>stb_truetype.h</FILENAME>
+        <LINE>3553</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'buffer[2]', (readable range is 0 to 1)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>442</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>ImDrawList::AddPolyline</FUNCTION>
+    <DECORATED>?AddPolyline@ImDrawList@@QAEXPBUImVec2@@HI_NM1@Z</DECORATED>
+    <FUNCLINE>417</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>623</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>ImDrawList::AddConvexPolyFilled</FUNCTION>
+    <DECORATED>?AddConvexPolyFilled@ImDrawList@@QAEXPBUImVec2@@HI_N@Z</DECORATED>
+    <FUNCLINE>598</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>630</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'temp_normals':  the writable size is 'points_count*sizeof(ImVec2)' bytes, but '16' bytes might be written.</DESCRIPTION>
+    <FUNCTION>ImDrawList::AddConvexPolyFilled</FUNCTION>
+    <DECORATED>?AddConvexPolyFilled@ImDrawList@@QAEXPBUImVec2@@HI_N@Z</DECORATED>
+    <FUNCLINE>598</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>600</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>601</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>604</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>607</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>608</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>609</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>610</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>611</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>614</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>615</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>616</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>616</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>623</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'temp_normals' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>624</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>624</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>624</LINE>
+        <COLUMN>49</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i1&lt;points_count')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>626</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>627</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>628</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>629</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>630</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'temp_normals', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>637</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'temp_normals':  the readable size is 'points_count*sizeof(ImVec2)' bytes, but '16' bytes may be read.</DESCRIPTION>
+    <FUNCTION>ImDrawList::AddConvexPolyFilled</FUNCTION>
+    <DECORATED>?AddConvexPolyFilled@ImDrawList@@QAEXPBUImVec2@@HI_N@Z</DECORATED>
+    <FUNCLINE>598</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>600</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>601</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>604</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>607</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>608</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>609</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>610</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>611</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>614</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>615</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>616</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>616</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>623</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'temp_normals' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>624</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>624</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>624</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>626</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>627</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>628</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>629</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>630</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>631</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>624</LINE>
+        <COLUMN>68</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>624</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>626</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>627</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>628</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>629</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>630</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>631</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>624</LINE>
+        <COLUMN>68</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>624</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>634</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>634</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>634</LINE>
+        <COLUMN>49</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i1&lt;points_count')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\imgui\</FILEPATH>
+        <FILENAME>imgui_draw.cpp</FILENAME>
+        <LINE>637</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'temp_normals', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\microsoft directx sdk (june 2010)\include\</FILEPATH>
+      <FILENAME>dinput.h</FILENAME>
+      <LINE>4321</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'joyConfigChanged': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\joystickapi.h(454). </DESCRIPTION>
+    <FUNCTION>joyConfigChanged</FUNCTION>
+    <DECORATED>joyConfigChanged@4</DECORATED>
+    <FUNCLINE>4321</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+      <FILENAME>base_gcmessages.pb.cc</FILENAME>
+      <LINE>269</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'file'. </DESCRIPTION>
+    <FUNCTION>protobuf_AssignDesc_base_5fgcmessages_2eproto</FUNCTION>
+    <DECORATED>?protobuf_AssignDesc_base_5fgcmessages_2eproto@@YAXXZ</DECORATED>
+    <FUNCLINE>263</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>base_gcmessages.pb.cc</FILENAME>
+        <LINE>264</LINE>
+        <COLUMN>44</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>base_gcmessages.pb.cc</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>base_gcmessages.pb.cc</FILENAME>
+        <LINE>265</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>base_gcmessages.pb.cc</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'file' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>base_gcmessages.pb.cc</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>44</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'file' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+      <FILENAME>cstrike15_gcmessages.pb.cc</FILENAME>
+      <LINE>443</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'file'. </DESCRIPTION>
+    <FUNCTION>protobuf_AssignDesc_cstrike15_5fgcmessages_2eproto</FUNCTION>
+    <DECORATED>?protobuf_AssignDesc_cstrike15_5fgcmessages_2eproto@@YAXXZ</DECORATED>
+    <FUNCLINE>437</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>cstrike15_gcmessages.pb.cc</FILENAME>
+        <LINE>438</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>cstrike15_gcmessages.pb.cc</FILENAME>
+        <LINE>441</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>cstrike15_gcmessages.pb.cc</FILENAME>
+        <LINE>439</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>cstrike15_gcmessages.pb.cc</FILENAME>
+        <LINE>442</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'file' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>cstrike15_gcmessages.pb.cc</FILENAME>
+        <LINE>443</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'file' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+      <FILENAME>econ_gcmessages.pb.cc</FILENAME>
+      <LINE>43</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'file'. </DESCRIPTION>
+    <FUNCTION>protobuf_AssignDesc_econ_5fgcmessages_2eproto</FUNCTION>
+    <DECORATED>?protobuf_AssignDesc_econ_5fgcmessages_2eproto@@YAXXZ</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>econ_gcmessages.pb.cc</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>44</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>econ_gcmessages.pb.cc</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>econ_gcmessages.pb.cc</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>econ_gcmessages.pb.cc</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'file' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>econ_gcmessages.pb.cc</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'file' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+      <FILENAME>engine_gcmessages.pb.cc</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'file'. </DESCRIPTION>
+    <FUNCTION>protobuf_AssignDesc_engine_5fgcmessages_2eproto</FUNCTION>
+    <DECORATED>?protobuf_AssignDesc_engine_5fgcmessages_2eproto@@YAXXZ</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>engine_gcmessages.pb.cc</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>engine_gcmessages.pb.cc</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>engine_gcmessages.pb.cc</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>engine_gcmessages.pb.cc</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'file' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>engine_gcmessages.pb.cc</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>36</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'file' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+      <FILENAME>fatdemo.pb.cc</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'file'. </DESCRIPTION>
+    <FUNCTION>protobuf_AssignDesc_fatdemo_2eproto</FUNCTION>
+    <DECORATED>?protobuf_AssignDesc_fatdemo_2eproto@@YAXXZ</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>fatdemo.pb.cc</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>fatdemo.pb.cc</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>fatdemo.pb.cc</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>fatdemo.pb.cc</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'file' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>fatdemo.pb.cc</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'file' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+      <FILENAME>gcsdk_gcmessages.pb.cc</FILENAME>
+      <LINE>150</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'file'. </DESCRIPTION>
+    <FUNCTION>protobuf_AssignDesc_gcsdk_5fgcmessages_2eproto</FUNCTION>
+    <DECORATED>?protobuf_AssignDesc_gcsdk_5fgcmessages_2eproto@@YAXXZ</DECORATED>
+    <FUNCLINE>144</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>gcsdk_gcmessages.pb.cc</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>gcsdk_gcmessages.pb.cc</FILENAME>
+        <LINE>148</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>gcsdk_gcmessages.pb.cc</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>gcsdk_gcmessages.pb.cc</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'file' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>gcsdk_gcmessages.pb.cc</FILENAME>
+        <LINE>150</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'file' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+      <FILENAME>gcsystemmsgs.pb.cc</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'file'. </DESCRIPTION>
+    <FUNCTION>protobuf_AssignDesc_gcsystemmsgs_2eproto</FUNCTION>
+    <DECORATED>?protobuf_AssignDesc_gcsystemmsgs_2eproto@@YAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>gcsystemmsgs.pb.cc</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>gcsystemmsgs.pb.cc</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>gcsystemmsgs.pb.cc</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>gcsystemmsgs.pb.cc</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'file' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>gcsystemmsgs.pb.cc</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'file' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+      <FILENAME>netmessages.pb.cc</FILENAME>
+      <LINE>226</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'file'. </DESCRIPTION>
+    <FUNCTION>protobuf_AssignDesc_netmessages_2eproto</FUNCTION>
+    <DECORATED>?protobuf_AssignDesc_netmessages_2eproto@@YAXXZ</DECORATED>
+    <FUNCLINE>220</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>netmessages.pb.cc</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>netmessages.pb.cc</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>netmessages.pb.cc</FILENAME>
+        <LINE>222</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>netmessages.pb.cc</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'file' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>netmessages.pb.cc</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'file' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+      <FILENAME>network_connection.pb.cc</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'file'. </DESCRIPTION>
+    <FUNCTION>protobuf_AssignDesc_network_5fconnection_2eproto</FUNCTION>
+    <DECORATED>?protobuf_AssignDesc_network_5fconnection_2eproto@@YAXXZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>network_connection.pb.cc</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>47</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>network_connection.pb.cc</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>network_connection.pb.cc</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>network_connection.pb.cc</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'file' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>network_connection.pb.cc</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'file' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+      <FILENAME>steamdatagram_messages.pb.cc</FILENAME>
+      <LINE>110</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'file'. </DESCRIPTION>
+    <FUNCTION>protobuf_AssignDesc_steamdatagram_5fmessages_2eproto</FUNCTION>
+    <DECORATED>?protobuf_AssignDesc_steamdatagram_5fmessages_2eproto@@YAXXZ</DECORATED>
+    <FUNCLINE>104</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>steamdatagram_messages.pb.cc</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>51</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>steamdatagram_messages.pb.cc</FILENAME>
+        <LINE>108</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>steamdatagram_messages.pb.cc</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>steamdatagram_messages.pb.cc</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'file' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>steamdatagram_messages.pb.cc</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>47</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'file' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+      <FILENAME>steammessages.pb.cc</FILENAME>
+      <LINE>272</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'file'. </DESCRIPTION>
+    <FUNCTION>protobuf_AssignDesc_steammessages_2eproto</FUNCTION>
+    <DECORATED>?protobuf_AssignDesc_steammessages_2eproto@@YAXXZ</DECORATED>
+    <FUNCLINE>266</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>steammessages.pb.cc</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>steammessages.pb.cc</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>steammessages.pb.cc</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>steammessages.pb.cc</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'file' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\protobuf\</FILEPATH>
+        <FILENAME>steammessages.pb.cc</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'file' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+      <FILENAME>reflectiveloader.cpp</FILENAME>
+      <LINE>437</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'pNtFlushInstructionCache'. </DESCRIPTION>
+    <FUNCTION>ReflectiveLoader</FUNCTION>
+    <DECORATED>?ReflectiveLoader@@YGKXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pNtFlushInstructionCache' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>53</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>49</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>54</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'uiValueA' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>245</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>247</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'uiValueA--' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>255</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>258</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'uiValueE--' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>287</LINE>
+        <COLUMN>44</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>434</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>437</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pNtFlushInstructionCache' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+      <FILENAME>reflectiveloader.cpp</FILENAME>
+      <LINE>290</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'pLoadLibraryA'. </DESCRIPTION>
+    <FUNCTION>ReflectiveLoader</FUNCTION>
+    <DECORATED>?ReflectiveLoader@@YGKXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pLoadLibraryA' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>53</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>49</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>54</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'uiValueA' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>245</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>247</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'uiValueA--' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>255</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>258</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'uiValueE--' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>287</LINE>
+        <COLUMN>44</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>290</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pLoadLibraryA' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+      <FILENAME>reflectiveloader.cpp</FILENAME>
+      <LINE>328</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'pGetProcAddress'. </DESCRIPTION>
+    <FUNCTION>ReflectiveLoader</FUNCTION>
+    <DECORATED>?ReflectiveLoader@@YGKXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pGetProcAddress' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>53</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>49</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>54</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'uiValueA' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>245</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>247</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'uiValueA--' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>255</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>258</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'uiValueE--' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>287</LINE>
+        <COLUMN>44</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>290</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>299</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '*(UINT_PTR *)(uiValueA)')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>302</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>325</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>328</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>12</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pGetProcAddress' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+      <FILENAME>reflectiveloader.cpp</FILENAME>
+      <LINE>242</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'pVirtualAlloc'. </DESCRIPTION>
+    <FUNCTION>ReflectiveLoader</FUNCTION>
+    <DECORATED>?ReflectiveLoader@@YGKXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pVirtualAlloc' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>53</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>49</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>54</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'uiValueA' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\rl\</FILEPATH>
+        <FILENAME>reflectiveloader.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pVirtualAlloc' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+      <FILENAME>sdk.cpp</FILENAME>
+      <LINE>294</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'Temp_value_#2624' could be '0':  this does not adhere to the specification for the function 'GetProcAddress'. </DESCRIPTION>
+    <FUNCTION>SDK::Interfaces::SteamGameCoordinator</FUNCTION>
+    <DECORATED>?SteamGameCoordinator@Interfaces@SDK@@SAPAVISteamGameCoordinator@@XZ</DECORATED>
+    <FUNCLINE>289</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleA' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\libloaderapi.h:302)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!g_pSteamGameCoordinator')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleA' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\libloaderapi.h:302)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'Temp_value_#2624' should not be NULL, because this is not consistent with the SAL annotation on 'GetProcAddress'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+      <FILENAME>sdk.cpp</FILENAME>
+      <LINE>295</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'Temp_value_#2628' could be '0':  this does not adhere to the specification for the function 'GetProcAddress'. </DESCRIPTION>
+    <FUNCTION>SDK::Interfaces::SteamGameCoordinator</FUNCTION>
+    <DECORATED>?SteamGameCoordinator@Interfaces@SDK@@SAPAVISteamGameCoordinator@@XZ</DECORATED>
+    <FUNCLINE>289</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleA' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\libloaderapi.h:302)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!g_pSteamGameCoordinator')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleA' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\libloaderapi.h:302)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'Temp_value_#2628' should not be NULL, because this is not consistent with the SAL annotation on 'GetProcAddress'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+      <FILENAME>sdk.cpp</FILENAME>
+      <LINE>296</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'Temp_value_#2632' could be '0':  this does not adhere to the specification for the function 'GetProcAddress'. </DESCRIPTION>
+    <FUNCTION>SDK::Interfaces::SteamGameCoordinator</FUNCTION>
+    <DECORATED>?SteamGameCoordinator@Interfaces@SDK@@SAPAVISteamGameCoordinator@@XZ</DECORATED>
+    <FUNCLINE>289</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleA' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\libloaderapi.h:302)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!g_pSteamGameCoordinator')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleA' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\libloaderapi.h:302)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\sdk\</FILEPATH>
+        <FILENAME>sdk.cpp</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'Temp_value_#2632' should not be NULL, because this is not consistent with the SAL annotation on 'GetProcAddress'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

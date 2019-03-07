@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(4) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(5) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(6) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'int' passed as _Param_(7) when some unsigned type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\steam_sdk\</FILEPATH>
+      <FILENAME>matchmakingtypes.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned short' passed as _Param_(8) when some signed type is required in call to '_snprintf'.</DESCRIPTION>
+    <FUNCTION>servernetadr_t::ToString</FUNCTION>
+    <DECORATED>?ToString@servernetadr_t@@ABEPBDIG@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+      <FILENAME>lagcomp.cpp</FILENAME>
+      <LINE>112</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'bestTargetSimTime'.</DESCRIPTION>
+    <FUNCTION>SDK::BackTrack::legitBackTrack</FUNCTION>
+    <DECORATED>?legitBackTrack@BackTrack@SDK@@QAEXPAVCUserCmd@2@@Z</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>83</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>85</LINE>
+        <COLUMN>84</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>91</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>62</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'bestTargetSimTime' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>98</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'bestTargetIndex!=-1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>100</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 't&lt;aim_Backtracktickrate' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\mruna\downloads\smef's indigo\smef-s-indigo-remasterd-master\indigo\cheat\backtrack\</FILEPATH>
+        <FILENAME>lagcomp.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'bestTargetSimTime' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
